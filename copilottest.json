@@ -1,0 +1,1318 @@
+{
+	"value": {
+		"appDefinitions": [
+			{
+                "manifestVersion": "1.16",
+                "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                "version": "6.1.6",
+                "name": "M365 Chat",
+                "accentColor": "#ffffff",                
+                "bots": [
+                  {
+                    "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                    "isNotificationOnly": false,
+                    "scopes": [
+                      "personal"
+                    ],
+                    "supportsCalling": false,
+                    "supportsFiles": false,
+                    "supportsVideo": false
+                  }
+                ],
+                "categories": [
+                  "Microsoft"
+                ],
+                "defaultGroupCapability": {
+                  "groupchat": "bot",
+                  "meetings": "bot",
+                  "team": "bot"
+                },
+                "developerName": "Microsoft Corporation",
+                "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                "devicePermissions": [
+                  "Geolocation",
+                  "Notifications",
+                  "OpenExternal"
+                ],
+                "isAppIOSAcquirable": true,
+                "isBlockable": true,
+                "isCoreApp": false,
+                "isFullScreen": false,
+                "isFullTrust": false,
+                "isPinnable": true,
+                "isPreinstallable": true,
+                "isTeamsOwned": true,
+                "isTenantConfigurable": true,
+                "languageTag": "en-us",
+                "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                "longDescription": "The Microsoft 365 Chat feature in Copilot combines the power of large language models (LLMs) with the intelligence of the Microsoft Graph to help you get things done. If authorized by your organization, you have the option to add plugins for more data sources (like apps and web content) that Copilot will interact with on your behalf.  \n\nCopilot can synthesize data from multiple sources to give you a summary of things you need to catch up on, including your files, messages, meetings, emails, and people. It can also help you find and use info that’s buried in documents or lost in conversations. And with Copilot by your side, you can create content with it all. \n\n\nAsk a work-related question, or try one of these:\n\n- Draft a message with action items from my last meeting\n- Catch up on my unread email\n- How do I write a request for proposal? \n\nAI-generated content may be incorrect, so sources are provided for your review when possible.\n\nDiscover more with these helpful links:\n\n- [Explore what's possible with Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [See what's new with Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Check out our [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                "publisherType": "FirstParty",
+                "shortDescription": "Your copilot for work",
+                "showLoadingIndicator": true,
+                "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                "staticTabs": [
+                  {
+                    "entityId": "about",
+                    "scopes": [
+                      "personal"
+                    ]
+                  }
+                ],
+                "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                "validDomains": [
+                  "*.cortana.ai",
+                  "token.botframework.com",
+                  "login.microsoftonline.com"
+                ],
+                "webApplicationInfo": {
+                  "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                  "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                },
+                "supportedLanguages": [
+                  "de",
+                  "en-gb",
+                  "es",
+                  "es-mx",
+                  "fr",
+                  "fr-ca",
+                  "it",
+                  "ja-jp",
+                  "pt-br",
+                  "zh",
+                  "pt-pt",
+                  "zh-cn",
+                  "zh-sg",
+                  "zh-hk",
+                  "zh-mo",
+                  "zh-tw",
+                  "en-us"
+                ],
+                "localizedDefinitions": [
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 Chat",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "de",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "Das Microsoft 365 Chat-Feature in Copilot kombiniert die Leistungsfähigkeit großer Sprachmodelle (LLMs) mit der Intelligenz der Microsoft Graph, um Ihnen dabei zu helfen, Dinge zu erledigen. Wenn Sie von Ihrer Organisation autorisiert sind, haben Sie die Möglichkeit, Plug-Ins für weitere Datenquellen (wie Apps und Webinhalte) hinzuzufügen, mit denen Copilot in Ihrem Namen interagiert.\n\nCopilot kann Daten aus verschiedenen Quellen zusammenfassen, um Ihnen eine Zusammenfassung der Dinge zu geben, die Sie nachholen müssen, einschließlich Ihrer Dateien, Nachrichten, Besprechungen, E-Mails und Personen. Es kann Ihnen dabei helfen, Informationen zu finden und zu verwenden, die in Dokumenten verschüttet sind oder in Unterhaltungen verloren gegangen sind. Und mit Copilot an Ihrer Seite können Sie mit all dem Inhalte erstellen.\n\nStellen Sie eine geschäftliche Frage, oder versuchen Sie es mit einer der folgenden Optionen:\n\n– Nachricht mit Aktionselementen aus meiner letzten Besprechung entwerfen\n– Aufholen meiner ungelesenen E-Mails\nWie schreibe ich eine Angebotsanfrage?\n\nKI-generierte Inhalte sind möglicherweise falsch, sodass nach Möglichkeit Quellen für Ihre Überprüfung bereitgestellt werden.\n\nEntdecken Sie mehr mit diesen hilfreichen Links:\n\n– [Erkunden, was mit Copilot möglich ist](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Neuigkeiten mit Copilot anzeigen](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Sehen Sie sich unsere [FAQ] an (https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "Ihr Copilot für die Arbeit",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 Chat",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "en-gb",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "The Microsoft 365 Chat feature in Copilot combines the power of large language models (LLMs) with the intelligence of the Microsoft Graph to help you get things done. If authorised by your organisation, you have the option to add plugins for more data sources (like apps and web content) that Copilot will interact with on your behalf.\n\nCopilot can synthesise data from multiple sources to give you a summary of things you need to catch up on, including your files, messages, meetings, emails, and people. It can also help you find and use info that’s buried in documents or lost in conversations. And with Copilot by your side, you can create content with it all.\n\nAsk a work-related question, or try one of these:\n\n- Draft a message with action items from my last meeting\n- Catch up on my unread email\n- How do I write a request for proposal?\n\nAI-generated content may be incorrect, so sources are provided for your review when possible.\n\nDiscover more with these helpful links:\n\n- [Explore what's possible with Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [See what's new with Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Check out our [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "Your copilot for work",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 Chat",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "es",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "La característica de chat de Microsoft 365 en Copilot combina el poder de los modelos de lenguaje grandes (LLM) con la inteligencia de Microsoft Graph para ayudarle a hacer las cosas. Si su organización lo autoriza, tiene la opción de agregar complementos para más fuentes de datos (como aplicaciones y contenido web) con las que Copilot interactuará en su nombre.\n\nCopilot puede sintetizar datos de múltiples fuentes para brindarle un resumen de las cosas que necesita actualizar, incluidos sus archivos, mensajes, reuniones, correos electrónicos y personas. También puede ayudarle a encontrar y utilizar información oculta en documentos o perdida en conversaciones. Y, con Copilot a su lado, puede crear contenido con todo ello.\n\nFormule una pregunta relacionada con el trabajo o pruebe una de estas opciones:\n\n- Redactar un mensaje con elementos de acción de mi última reunión\n- Ponerse al día con los mensajes no leídos\n- ¿Cómo puedo escribir una solicitud de propuesta?\n\nEl contenido generado por la inteligencia artificial puede ser incorrecto, por lo que se proporcionan recursos para su revisión siempre que sea posible.\n\nDescubra más con estos vínculos útiles:\n\n- [Explorar lo que es posible con Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Ver las novedades con Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Consulte las [PyR](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "Su copiloto para el trabajo",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 Chat",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "es-mx",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "La característica de Microsoft 365 Chat en Copilot combina el poder de los modelos de lenguaje grandes (LLM) con la inteligencia de Microsoft Graph para ayudarte a hacer las cosas. Si tu organización lo autoriza, tiene la opción de agregar complementos para más fuentes de datos (como aplicaciones y contenido web) con las que Copilot interactuará en tu nombre.\n\nCopilot puede sintetizar datos de múltiples fuentes para brindarle un resumen de las cosas que necesita actualizar, incluidos tus archivos, mensajes, reuniones, correos electrónicos y personas. También puede ayudarte a encontrar y utilizar información oculta en documentos o perdida en conversaciones. Y, con Copilot a tu lado, puedes crear contenido con todo ello.\n\nFormula una pregunta relacionada con el trabajo o prueba una de estas opciones:\n\n- Redacta un mensaje con elementos de acción de mi última reunión\n- Ponte al día con los mensajes no leídos\n- ¿Cómo puedo escribir una solicitud de propuesta?\n\nEl contenido generado por la inteligencia artificial puede ser incorrecto, por lo que se proporcionan recursos para su revisión siempre que sea posible.\n\nDescubre más con estos vínculos útiles:\n\n- [Explorar lo que es posible con Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Ver las novedades con Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Consulte las [PyR](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "Tu copiloto para el trabajo",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 Conversation",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "fr",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "La fonctionnalité Microsoft 365 Chat dans Copilot combine la puissance des grands modèles linguistiques (LLM) avec l'intelligence de Microsoft Graph pour vous aider à faire avancer les choses. Si votre organisation l'autorise, vous avez la possibilité d'ajouter des plugins pour davantage de sources de données (comme les applications et le contenu Web) avec lesquelles Copilot interagira en votre nom.\n\nCopilot peut synthétiser des données provenant de plusieurs sources pour vous donner un résumé des éléments que vous devez rattraper, notamment vos fichiers, messages, réunions, e-mails et personnes. Il peut également vous aider à trouver et à utiliser des informations enfouies dans des documents ou perdues dans des conversations. Et avec Copilot à vos côtés, vous pouvez créer du contenu avec tout cela.\n\nPosez une question liée au travail ou essayez l'une de celles-ci :\n\n– Rédiger un message avec les actions de ma dernière réunion\n– Rattraper mon email non lu\n– Comment rédiger une requête de proposition ?\n\nLe contenu généré par l'IA peut être incorrect, c'est pourquoi les sources sont fournies pour votre examen lorsque cela est possible.\n\nDécouvrez-en davantage avec ces liens utiles :\n\n– [Explorez ce qui est possible avec Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Découvrez les nouveautés de Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Consultez notre [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "Votre copilote au travail",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 Conversation",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "fr-ca",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "La fonctionnalité Microsoft 365 Chat dans Copilot combine la puissance des grands modèles linguistiques (LLM) avec l’intelligence de Microsoft Graph pour vous aider à faire avancer les choses. Si votre organisation l’autorise, vous avez la possibilité d’ajouter des plugins pour davantage de sources de données (comme les applications et le contenu Web) avec lesquelles Copilot interagira en votre nom.\n\nCopilot peut synthétiser des données provenant de plusieurs sources pour vous donner un résumé des éléments que vous devez rattraper, notamment vos fichiers, messages, réunions, courriels et personnes. Il peut également vous aider à trouver et à utiliser des informations enfouies dans des documents ou perdues dans des conversations. Et avec Copilot à vos côtés, vous pouvez créer du contenu avec tout cela.\n\nPosez une question liée au travail ou essayez l’une de celles-ci :\n\n– Rédiger un message avec les actions de ma dernière réunion\n– Rattraper mon email non lu\n– Comment rédiger une requête de proposition?\n\nLe contenu généré par l’IA peut être incorrect, c’est pourquoi les sources sont fournies pour votre examen lorsque cela est possible.\n\nDécouvrez-en davantage avec ces liens utiles :\n\n– [Explorez ce qui est possible avec Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Découvrez les nouveautés de Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Consultez notre [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "Votre copilote au travail",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 Chat",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "it",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "La funzione Microsoft 365 Chat di Copilot combina la potenza dei modelli linguistici di grandi dimensioni (LLM) con l'intelligenza del Microsoft Graph, per aiutarti a portare a termine le tue attività. Se autorizzati dall'organizzazione, è possibile aggiungere plugin per altre fonti di dati (come app e contenuti web) con cui Copilot interagirà per conto dell'azienda.\n\nCopilot è in grado di sintetizzare i dati provenienti da più fonti per fornire un riepilogo delle cose da recuperare, compresi file, messaggi, riunioni, messaggi di posta elettronica e persone. Può anche aiutarti a trovare e utilizzare informazioni sepolte nei documenti o perse nelle conversazioni. E con Copilot al tuo fianco, puoi creare contenuti con tutto questo.\n\nFai una domanda relativa al lavoro o prova a fare una di queste:\n\n- Redigi un messaggio con i punti d'azione dell'ultima riunione\n- Recupera i messaggi di posta elettronica non letti\n- Come si scrive una richiesta di offerta?\n\nI contenuti generati dall'intelligenza artificiale possono non essere corretti, pertanto vengono fornite le fonti per la verifica, quando possibile.\n\nScopri di più con questi collegamenti utili:\n\n- [Esplora le possibilità con Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Scopri le novità di Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Scopri le nostre [domande frequenti](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "Il tuo copilota per il lavoro",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 チャット",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "ja-jp",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "Copilot の Microsoft 365 Chat 機能は、大規模言語モデル (LLM) の機能と Microsoft Graph のインテリジェンスを組み合わせて、作業を完了させるのに役立ちます。組織によって承認されている場合は、Copilot がユーザーの代わりに操作するデータ ソース (アプリや Web コンテンツなど) を増やすためにプラグインを追加できます。\n\nCopilot では、複数のソースのデータを合成して、ファイル、メッセージ、会議、メール、ユーザーなど、最新の情報を確認するのに必要な情報の概要を提供できます。また、ドキュメントに埋もれている情報や会話で失われた情報を見つけて使用するのにも役立ちます。Copilot を並べて使用すると、すべてを使用してコンテンツを作成できます。\n\n仕事関連の質問をするか、次のいずれかをお試しください:\n\n- 前回の会議のアクション アイテムを含むメッセージの下書きをする\n- 未読のメールを確認する\n- 提案の要求を書く方法\n\nAI によって生成されたコンテンツが間違っている可能性もあるため、可能な場合はレビュー用にソースが提供されます。\n\n次のリンクが役に立ちます:\n\n- [Copilot でできることの確認](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Copilot の新機能を見る](https://go.microsoft.com/fwlink/?linkid=2239566)\n- [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505) を確認する",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "仕事向け Copilot",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 Chat",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "pt-br",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "O recurso Microsoft 365 Chat no Copilot combina o poder dos grandes modelos de linguagem (LLMs) com a inteligência do Microsoft Graph para ajudá-lo a realizar suas tarefas. Se autorizado pela sua organização, você terá a opção de adicionar plug-ins para mais fontes de dados (como aplicativos e conteúdo da web) com as quais o Copilot interagirá em seu nome.\n\nO Copilot pode sintetizar dados de várias fontes para fornecer um resumo do que você precisa atualizar, incluindo arquivos, mensagens, reuniões, emails e pessoas. Também pode ajudá-lo a localizar e usar informações ocultas em documentos ou perdidas em conversas. E com o Copilot ao seu lado, você pode criar conteúdo com tudo isso.\n\nFaça uma pergunta relacionada ao trabalho ou tente uma destas:\n\n- Redija uma mensagem com itens de ação da minha última reunião\n- Atualize meus emails não lidos\n- Como fazer para redigir uma solicitação de proposta?\n\nO conteúdo gerado por IA pode estar incorreto, portanto, as fontes são fornecidas para sua análise sempre que possível.\n\nDescubra mais com esses links úteis:\n\n– [Explore o que é possível com o Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Veja as novidades do Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Confira nossas [perguntas frequentes](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "Seu copiloto para o trabalho",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 Chat",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "pt-pt",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "A funcionalidade Microsoft 365 Chat no Copilot combina o poder dos grandes modelos de linguagem (LLMs) com a inteligência do Microsoft Graph para ajudar a realizar tarefas como nunca antes. Pode obter um resumo de tudo o que precisa de saber, incluindo os seus ficheiros, mensagens e pessoas. Copilot também pode ajudar a encontrar e utilizar informações que estão dispersas em documentos ou perdidas em conversações. Com a ajuda do Copilot, pode criar conteúdos com tudo isto.\n\nFaça uma pergunta relacionada com o trabalho ou experimente uma destas:\n\n- Redija uma mensagem com os itens de ação da minha última reunião\n- Ponha-me a par do meu e-mail não lido\n- Com quem tenho reuniões amanhã?\n\nO conteúdo gerado por IA pode estar incorreto, pelo que são fornecidas as fontes para que as possa rever, sempre que possível.\n\nDescubra mais com estas ligações úteis:\n\n- [Explore o que é possível com o Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Conheça as novidades do Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Consulte as nossas [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "O seu copiloto para o trabalho",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 Chat",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "zh",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "Copilot 中的“Microsoft 365 Chat”功能将大型语言模型 (LLM) 的强大功能与 Microsoft Graph 智能相结合，以帮助完成工作。如果组织提供授权，则可以选择为更多数据源(例如应用和 Web 内容)添加插件，Copilot 将代表与这些数据源进行交互。\n\nCopilot 可以合成来自多个源的数据，提供需要跟进内容的摘要，包括文件、邮件、会议、电子邮件和人员。还可以帮助查找和使用隐藏在文档中或对话中丢失的信息。借助 Copilot，可以创建所有内容。\n\n提出与工作相关的问题或尝试以下各项之一:\n\n- 草稿包含上次会议中的操作项目的消息\n- 跟进我的未读电子邮件\n- 如何编写项目建议请求?\n\nAI 生成的内容可能不正确，因此在可能的情况下会提供来源以供审查。\n\n通过以下有用的链接发现更多信息:\n\n- [了解如何使用 Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [查看 Copilot 的新增功能](https://go.microsoft.com/fwlink/?linkid=2239566)\n- 查看我们的 [常见问题解答](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "适用于工作的 Copilot",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 Chat",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "zh-cn",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "Copilot 中的“Microsoft 365 Chat”功能将大型语言模型 (LLM) 的强大功能与 Microsoft Graph 智能相结合，以帮助完成工作。如果组织提供授权，则可以选择为更多数据源(例如应用和 Web 内容)添加插件，Copilot 将代表与这些数据源进行交互。\n\nCopilot 可以合成来自多个源的数据，提供需要跟进内容的摘要，包括文件、邮件、会议、电子邮件和人员。还可以帮助查找和使用隐藏在文档中或对话中丢失的信息。借助 Copilot，可以创建所有内容。\n\n提出与工作相关的问题或尝试以下各项之一:\n\n- 草稿包含上次会议中的操作项目的消息\n- 跟进我的未读电子邮件\n- 如何编写项目建议请求?\n\nAI 生成的内容可能不正确，因此在可能的情况下会提供来源以供审查。\n\n通过以下有用的链接发现更多信息:\n\n- [了解如何使用 Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [查看 Copilot 的新增功能](https://go.microsoft.com/fwlink/?linkid=2239566)\n- 查看我们的 [常见问题解答](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "适用于工作的 Copilot",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 聊天",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "zh-hk",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "Copilot 中的 Microsoft 365 Chat 功能結合了大型語言模型 (LLM) 的功能與 Microsoft Graph 的智慧，可協助您完成工作。如果貴組織授權，您可以選擇為 Copilot 將代表您互動的更多資料來源 (例如應用程式和 Web 內容) 新增外掛程式。\n\nCopilot 可以合成來自多個來源的資料，為您提供需要處理之項目摘要，包括您的檔案、訊息、會議、電子郵件和人員。它也可以協助您尋找並使用文件中已隱藏或交談中遺失的資訊。有了 Copilot，您可以一起建立所有內容。\n\n詢問與工作相關的問題，或嘗試下列其中一項:\n\n- 撰寫一封包含我上一個會議動作項目的郵件\n- 處理我未讀取的電子郵件\n- 如何撰寫提案要求?\n\nAI 產生的內容可能並不正確，因此如有可能會提供來源供您檢閱。\n\n使用這些實用連結探索更多:\n\n- [探索 Copilot 的可能性](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [查看 Copilot 的新功能](https://go.microsoft.com/fwlink/?linkid=2239566)\n- 請查看我們的 [常見問題集](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "您的公司用 Copilot",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 聊天",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "zh-mo",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "Copilot 中的 Microsoft 365 Chat 功能結合了大型語言模型 (LLM) 的功能與 Microsoft Graph 的智慧，可協助您完成工作。如果貴組織授權，您可以選擇為 Copilot 將代表您互動的更多資料來源 (例如應用程式和 Web 內容) 新增外掛程式。\n\nCopilot 可以合成來自多個來源的資料，為您提供需要處理之項目摘要，包括您的檔案、訊息、會議、電子郵件和人員。它也可以協助您尋找並使用文件中已隱藏或交談中遺失的資訊。有了 Copilot，您可以一起建立所有內容。\n\n詢問與工作相關的問題，或嘗試下列其中一項:\n\n- 撰寫一封包含我上一個會議動作項目的郵件\n- 處理我未讀取的電子郵件\n- 如何撰寫提案要求?\n\nAI 產生的內容可能並不正確，因此如有可能會提供來源供您檢閱。\n\n使用這些實用連結探索更多:\n\n- [探索 Copilot 的可能性](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [查看 Copilot 的新功能](https://go.microsoft.com/fwlink/?linkid=2239566)\n- 請查看我們的 [常見問題集](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "您的公司用 Copilot",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 Chat",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "zh-sg",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "Copilot 中的“Microsoft 365 Chat”功能将大型语言模型 (LLM) 的强大功能与 Microsoft Graph 智能相结合，以帮助完成工作。如果组织提供授权，则可以选择为更多数据源(例如应用和 Web 内容)添加插件，Copilot 将代表与这些数据源进行交互。\n\nCopilot 可以合成来自多个源的数据，提供需要跟进内容的摘要，包括文件、邮件、会议、电子邮件和人员。还可以帮助查找和使用隐藏在文档中或对话中丢失的信息。借助 Copilot，可以创建所有内容。\n\n提出与工作相关的问题或尝试以下各项之一:\n\n- 草稿包含上次会议中的操作项目的消息\n- 跟进我的未读电子邮件\n- 如何编写项目建议请求?\n\nAI 生成的内容可能不正确，因此在可能的情况下会提供来源以供审查。\n\n通过以下有用的链接发现更多信息:\n\n- [了解如何使用 Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [查看 Copilot 的新增功能](https://go.microsoft.com/fwlink/?linkid=2239566)\n- 查看我们的 [常见问题解答](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "适用于工作的 Copilot",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  },
+                  {
+                    "manifestVersion": "1.16",
+                    "id": "89fb6b53-d5d6-4077-a412-f55f1fd3830a",
+                    "version": "6.1.6",
+                    "name": "M365 聊天",
+                    "accentColor": "#ffffff",
+                    "applicableLicenseCategories": [
+                      "Copilot"
+                    ],
+                    "bots": [
+                      {
+                        "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                          "personal"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                      }
+                    ],
+                    "categories": [
+                      "Microsoft"
+                    ],
+                    "defaultGroupCapability": {
+                      "groupchat": "bot",
+                      "meetings": "bot",
+                      "team": "bot"
+                    },
+                    "developerName": "Microsoft Corporation",
+                    "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                    "devicePermissions": [
+                      "Geolocation",
+                      "Notifications",
+                      "OpenExternal"
+                    ],
+                    "isAppIOSAcquirable": true,
+                    "isBlockable": true,
+                    "isCoreApp": false,
+                    "isFullScreen": false,
+                    "isFullTrust": false,
+                    "isPinnable": true,
+                    "isPreinstallable": true,
+                    "isTeamsOwned": true,
+                    "isTenantConfigurable": true,
+                    "languageTag": "zh-tw",
+                    "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_largeImage.png?v=6.1.6",
+                    "longDescription": "Copilot 中的 Microsoft 365 Chat 功能結合了大型語言模型 (LLM) 的功能與 Microsoft Graph 的智慧，可協助您完成工作。如果貴組織授權，您可以選擇為 Copilot 將代表您互動的更多資料來源 (例如應用程式和 Web 內容) 新增外掛程式。\n\nCopilot 可以合成來自多個來源的資料，為您提供需要處理之項目摘要，包括您的檔案、訊息、會議、電子郵件和人員。它也可以協助您尋找並使用文件中已隱藏或交談中遺失的資訊。有了 Copilot，您可以一起建立所有內容。\n\n詢問與工作相關的問題，或嘗試下列其中一項:\n\n- 撰寫一封包含我上一個會議動作項目的郵件\n- 處理我未讀取的電子郵件\n- 如何撰寫提案要求?\n\nAI 產生的內容可能並不正確，因此如有可能會提供來源供您檢閱。\n\n使用這些實用連結探索更多:\n\n- [探索 Copilot 的可能性](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [查看 Copilot 的新功能](https://go.microsoft.com/fwlink/?linkid=2239566)\n- 請查看我們的 [常見問題集](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                    "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                    "publisherType": "FirstParty",
+                    "shortDescription": "您的公司用 Copilot",
+                    "showLoadingIndicator": true,
+                    "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/89fb6b53-d5d6-4077-a412-f55f1fd3830a/89fb6b53-d5d6-4077-a412-f55f1fd3830a_smallImage.png?v=6.1.6",
+                    "staticTabs": [
+                      {
+                        "entityId": "about",
+                        "scopes": [
+                          "personal"
+                        ]
+                      }
+                    ],
+                    "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2249444",
+                    "validDomains": [
+                      "*.cortana.ai",
+                      "token.botframework.com",
+                      "login.microsoftonline.com"
+                    ],
+                    "webApplicationInfo": {
+                      "id": "914d3be7-0ff0-4da7-ac61-4dab62e6e076",
+                      "resource": "api://api.cortana.ai/botid-914d3be7-0ff0-4da7-ac61-4dab62e6e076"
+                    }
+                  }
+                ]
+            },
+            {
+                "manifestVersion": "1.16",
+                "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+                "version": "3.1.8",
+                "name": "M365 Chat (new)",
+                "accentColor": "#ffffff",                
+                "authorization": {
+                  "permissions": {
+                    "orgWide": [],
+                    "resourceSpecific": []
+                  }
+                },
+                "categories": [
+                  "Microsoft"
+                ],
+                "defaultGroupCapability": {},
+                "developerName": "Microsoft Corporation",
+                "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                "isAppIOSAcquirable": true,
+                "isBlockable": true,
+                "isCoreApp": false,
+                "isFullScreen": true,
+                "isFullTrust": true,
+                "isPinnable": true,
+                "isPreinstallable": true,
+                "isTeamsOwned": true,
+                "isTenantConfigurable": true,
+                "languageTag": "en-us",
+                "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.1.8",
+                "longDescription": "The Microsoft 365 Chat feature in Copilot combines the power of large language models (LLMs) with the intelligence of the Microsoft Graph to help you get things done like never before. You can get a summary of everything you need to catch up on, including your files, messages, and people. Copilot can also help you find and use info that's buried in documents or lost in conversations. And together, you and Copilot can create content with it all.\n\nAsk a work-related question, or try one of these:\n\n- Draft a message with action items from my last meeting\n- Catch up on my unread email\n- Who am I meeting with tomorrow?\n\nAI-generated content may be incorrect, so sources are provided for your review when possible.\n\nDiscover more with these helpful links:\n\n- [Explore what's possible with Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [See what's new with Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Check out our [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                "publisherType": "FirstParty",
+                "shortDescription": "Your copilot for work",
+                "showLoadingIndicator": true,
+                "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.1.8",
+                "staticTabs": [
+                  {
+                    "contentUrl": "https://outlook.office.com/hosted/semanticoverview?hostApp=hub&isanonymous=true&culture={locale}&features=immersive-bizchat-feature",
+                    "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+                    "name": "Copilot",
+                    "scopes": [
+                      "personal"
+                    ],
+                    "supportedPlatform": [
+                      "desktop"
+                    ],
+                    "websiteUrl": "https://outlook.office.com/hosted/semanticoverview?hostApp=hub&isanonymous=true&culture={locale}&features=immersive-bizchat-feature"
+                  },
+                  {
+                    "entityId": "about",
+                    "scopes": [
+                      "personal"
+                    ],
+                    "supportedPlatform": [
+                      "desktop"
+                    ]
+                  }
+                ],
+                "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+                "validDomains": [
+                  "outlook.office.com"
+                ],
+                "webApplicationInfo": {
+                  "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+                  "resource": "https://outlook.office.com/"
+                },
+                "supportedLanguages": [
+                  "en-us"
+                ]
+            }
+		]
+	}
+}
