@@ -1,0 +1,151 @@
+{
+  "value": {
+    "templatedAppDefinitions":[
+      {
+        "version": "0.0.2",
+        "id": "958bb540-13ba-46ab-8d6a-8ab39e3e1fd8",
+        "name": "Shared Power Virtual Agent Apps (Int)",
+        "developerName": "Microsoft Corporation",
+        "shortDescription": "The Shared Power Virtual Agent Apps (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Virtual Agents in \"Built by your colleagues\" and can't install them in Teams.",
+        "longDescription": "The Shared Power Virtual Agent Apps (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Virtual Agents in \"Built by your colleagues\" and can't install them in Teams.",
+        "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/powerva_largeimage.png?v=0.3",
+        "getTemplatedAppInstanceUrl": {
+          "urlTemplate": "https://tip1.api.powerapps.com/environments/{environment}/botApps/{templatedInstanceAppId}?api-version=2020-02-01",
+          "authModel": "powerapps"
+        },
+        "searchTemplatedAppsUrl": {
+          "urlTemplate": "https://tip1.api.powerapps.com/botApps?api-version=2020-06-01",
+          "authModel": "powerapps"
+        },
+        "webApplicationInfo": {
+          "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
+          "resource": "https://service.powerapps.com/"
+        },
+        "appInstanceDefinition": {
+          "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+          "manifestVersion": "1.16",
+          "version": "{$.version}",
+          "id": "{$.id}",
+          "packageName": "com.example.myapp",
+          "developer": {
+            "name": "{$.developer.name}",
+            "websiteUrl": "{$.developer.websiteUrl}",
+            "privacyUrl": "{$.developer.privacyUrl}",
+            "termsOfUseUrl": "{$.developer.termsOfUseUrl}",
+            "mpnId": "{$.developer.mpnId}"
+          },
+          "name": {
+            "short": "{$.name.short}",
+            "full": "{$.name.full}"
+          },
+          "description": {
+            "short": "{$.description.short}",
+            "full": "{$.description.full}"
+          },
+          "icons": {
+            "outline": "{$.icons.outline}",
+            "color": "{$.icons.color}"
+          },
+          "accentColor": "{$.accentColor}",
+          "bots": [
+            {
+              "botId": "{$.bots[0].botId}",
+              "needsChannelSelector": false,
+              "isNotificationOnly": false,
+              "scopes": [ "{$.bots[0].scopes}" ],
+              "supportsFiles": true
+            }
+          ],
+          "permissions": [
+            "Identity",
+            "MessageTeamMembers"
+          ],
+          "validDomains": [
+            "*.botframework.com",
+            "login.microsoftonline.com",
+            "*.*.customercareintelligence.net",
+            "*.*.powerva.microsoft.com",
+            "*.consent.azure-apim.net",
+            "*.azure-apim.net"
+          ],
+          "webApplicationInfo": {
+            "id": "{$.webApplicationInfo.id}",
+            "resource": "{$.webApplicationInfo.resource}"
+          }
+        }
+      },
+      {
+        "version": "0.0.1",
+        "id": "09e19d1e-ea5e-4adf-af47-fb8dd013361f",
+        "name": "Shared GPTs (Int)",
+        "developerName": "Microsoft Corporation",
+        "shortDescription": "The GPT (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft copilot studio in \"Built by your colleagues\" and can't install them in Teams.",
+        "longDescription": "The GPT (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Built by your colleagues\" and can't install them in Teams.",
+        "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/powerva_largeimage.png?v=0.3",
+        "getTemplatedAppInstanceUrl": {
+          "urlTemplate": "https://tip1.api.powerapps.com/environments/{environment}/gptApps/{templatedInstanceAppId}?api-version=2020-02-01",
+          "authModel": "powerapps"
+        },
+        "getAppPackageUrl": {
+          "urlTemplate": "https://tip1.api.powerapps.com/environments/{environment}/gptApps/{templatedInstanceAppId}/package?api-version=2023-06-01",
+          "authModel": "powerapps"
+        },
+        "searchTemplatedAppsUrl": {
+          "urlTemplate": "https://tip1.api.powerapps.com/gptApps?api-version=2020-06-01",
+          "authModel": "powerapps"
+        },
+        "webApplicationInfo": {
+          "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
+          "resource": "https://service.powerapps.com/"
+        },
+        "appInstanceDefinition": {
+          "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+          "accentColor": "{$.accentColor}",
+          "bots": [
+            {
+              "botId": "{$.bots[0].botId}",
+              "needsChannelSelector": false,
+              "isNotificationOnly": false,
+              "scopes": [ "{$.bots[0].scopes}" ],
+              "supportsFiles": true
+            }
+          ],
+          "description": {
+            "short": "{$.description.short}",
+            "full": "{$.description.full}"
+          },
+          "developer": {
+            "name": "{$.developer.name}",
+            "websiteUrl": "{$.developer.websiteUrl}",
+            "privacyUrl": "{$.developer.privacyUrl}",
+            "termsOfUseUrl": "{$.developer.termsOfUseUrl}",
+            "mpnId": "{$.developer.mpnId}"
+          },
+          "icons": {
+            "outline": "{$.icons.outline}",
+            "color": "{$.icons.color}"
+          },
+          "id": "{$.id}",
+          "manifestVersion": "1.16",
+          "name": {
+            "short": "{$.name.short}",
+            "full": "{$.name.full}"
+          },
+          "permissions": [
+            "identity",
+            "messageTeamMembers"
+          ],
+          "validDomains": [
+            "*.botframework.com",
+            "*.*.botframework.com"
+          ],
+          "version": "{$.version}",
+          "webApplicationInfo": {
+            "id": "{$.webApplicationInfo.id}",
+            "resource": "{$.webApplicationInfo.resource}"
+          }
+        }
+      }
+    ]
+  }
+}
