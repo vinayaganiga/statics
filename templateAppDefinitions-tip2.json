@@ -2,7 +2,7 @@
   "value": {
     "templatedAppDefinitions":[
       {
-        "version": "0.0.2",
+        "version": "0.0.4",
         "id": "958bb540-13ba-46ab-8d6a-8ab39e3e1fd8",
         "name": "Shared Power Virtual Agent Apps (Int)",
         "developerName": "Microsoft Corporation",
@@ -23,7 +23,12 @@
         },
         "appInstanceDefinition": {
           "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
-          "manifestVersion": "1.16",
+          "authorization": {
+            "permissions": {
+              "resourceSpecific": ["{$.resourceSpecificAuthorization}"]
+              }
+            },
+          "manifestVersion": "devPreview",
           "version": "{$.version}",
           "id": "{$.id}",
           "packageName": "com.example.myapp",
@@ -53,7 +58,11 @@
               "needsChannelSelector": false,
               "isNotificationOnly": false,
               "scopes": [ "{$.bots[0].scopes}" ],
-              "supportsFiles": true
+              "supportsFiles": true,
+              "registrationInfo": {
+                "source":"microsoftCopilotStudio",
+                "environment": "{$.environmentName}"
+              }
             }
           ],
           "permissions": [
@@ -75,7 +84,7 @@
         }
       },
       {
-        "version": "0.0.1",
+        "version": "0.0.3",
         "id": "09e19d1e-ea5e-4adf-af47-fb8dd013361f",
         "name": "Shared GPTs (Int)",
         "developerName": "Microsoft Corporation",
@@ -101,13 +110,22 @@
         "appInstanceDefinition": {
           "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
           "accentColor": "{$.accentColor}",
+          "authorization": {
+            "permissions": {
+              "resourceSpecific": ["{$.resourceSpecificAuthorization}"]
+              }
+            },
           "bots": [
             {
               "botId": "{$.bots[0].botId}",
               "needsChannelSelector": false,
               "isNotificationOnly": false,
               "scopes": [ "{$.bots[0].scopes}" ],
-              "supportsFiles": true
+              "supportsFiles": true,
+              "registrationInfo": {
+                "source":"microsoftCopilotStudio",
+                "environment": "{$.environmentName}"
+              }
             }
           ],
           "description": {
@@ -126,7 +144,7 @@
             "color": "{$.icons.color}"
           },
           "id": "{$.id}",
-          "manifestVersion": "1.16",
+          "manifestVersion": "devPreview",
           "name": {
             "short": "{$.name.short}",
             "full": "{$.name.full}"
