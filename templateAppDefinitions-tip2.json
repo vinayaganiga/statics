@@ -23,11 +23,11 @@
         },
         "appInstanceDefinition": {
           "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
-          "authorization": {
+          "authorization": {    
             "permissions": {
-              "resourceSpecific": []
-              }
-            },
+              "resourceSpecific": [ "{$.authorization.permissions.resourceSpecific}" ]
+            }
+          },
           "manifestVersion": "devPreview",
           "version": "{$.version}",
           "id": "{$.id}",
@@ -61,7 +61,7 @@
               "supportsFiles": true,
               "registrationInfo": {
                 "source":"microsoftCopilotStudio",
-                "environment": "{$.environmentName}"
+                 "environment": "{$.bots[0].registrationInfo.environment}"
               }
             }
           ],
@@ -110,11 +110,11 @@
         "appInstanceDefinition": {
           "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
           "accentColor": "{$.accentColor}",
-          "authorization": {
+          "authorization": {    
             "permissions": {
-              "resourceSpecific": []
-              }
-            },
+              "resourceSpecific": [ "{$.authorization.permissions.resourceSpecific}" ]
+            }
+          },
           "bots": [
             {
               "botId": "{$.bots[0].botId}",
@@ -124,7 +124,7 @@
               "supportsFiles": true,
               "registrationInfo": {
                 "source":"microsoftCopilotStudio",
-                "environment": "{$.environmentName}"
+                 "environment": "{$.bots[0].registrationInfo.environment}"
               }
             }
           ],
