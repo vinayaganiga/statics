@@ -86,7 +86,7 @@
       {
         "version": "0.0.3",
         "id": "09e19d1e-ea5e-4adf-af47-fb8dd013361f",
-        "name": "Shared GPTs (Int)",
+        "name": "Shared Copilots (Int)",
         "developerName": "Microsoft Corporation",
         "shortDescription": "The GPT (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft copilot studio in \"Built by your colleagues\" and can't install them in Teams.",
         "longDescription": "The GPT (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Built by your colleagues\" and can't install them in Teams.",
