@@ -75,6 +75,63 @@
                     }
                 }
             }
-        ]
+        ],
+        "appCatalogMetadata": {
+            "copilotPluginAllowedAppIds": [
+                "aa183fd9-7104-46c4-af9f-9ee9b81d717e",
+                "c738b607-88dd-4f16-aefe-6a824c65d25d",
+                "30bb610c-6321-40fe-a047-056e7d0dac96",
+                "49e6f432-d79c-49e8-94f7-89b94f3672fd",
+                "5be2b320-a5b7-4221-893c-dee506e4e365",
+                "3ee373aa-62fa-4fc6-b11f-9627d5b4a73d",
+                "2b248bdc-b79d-35eb-ece8-e81c1ba9fcef",
+                "fbd624a5-8d34-495d-a68c-a1101997a8a2",
+                "553f93cd-a182-4243-81ac-ccee505a9121",
+                "55ac82fa-249e-43b5-a5a6-4967990764eb",
+                "4b00bbbb-d524-419c-bb3b-9f42aee17424",
+                "05e1f66f-fcad-45c0-8a22-f3b658d375e6",
+                "2b876f4d-2e6b-4ee7-9b09-8893808c1380",
+                "c92c289e-ceb4-4755-819d-0d1dffdab6fa",
+                "40906836-4323-4bbe-875e-3cbb134c40a2",
+                "2ad804c5-5c19-431f-8801-a9eaefbca7c7",
+                "6b9cc557-e24a-4744-a370-407e717f2195",
+                "a0771cb7-c334-41d6-9773-0d78d637b363",
+                "3bb4a480-7767-4cca-b896-7d74592a253f",
+                "7d88764a-8601-4e36-8be4-157eb48b5302",
+                "8bbbc813-6d87-497c-9e7c-e401607b2347",
+                "05061717-583f-47fd-aa25-ff6c3781c935",
+                "abb85324-1bfa-4029-b245-782d337fcde5",
+                "87000000-3db9-bb44-5015-0b4a327a6597"
+            ],
+            "copilotBotsAllowedAppIds":[
+                "2a8c8a32-0a19-4fe1-8cd7-f92453647c56"
+            ],
+            "federationBlockedAppIds": [
+                "99e46335-5250-4a68-8499-3e4f55e6f3f6",
+                "0e3bedea-4720-48b5-9e13-5a1ce1387d45",
+                "1542629c-01b3-4a6d-8f76-1938b779e48d",
+                "d832a33f-28c2-4969-8ad0-4fee681dc5b4",
+                "7c316234-ded0-4f95-8a83-8453d0876592"
+            ],
+            "powerAppsDiscovery": {
+                "gptTemplateAppIds": [ 
+                    "09e19d1e-ea5e-4adf-af47-fb8dd013361f"
+                ],
+                "customCopilotTemplateAppIds": [ 
+                    "f6405520-7907-4464-8f6e-9889e2fb7d8f",
+                    "958bb540-13ba-46ab-8d6a-8ab39e3e1fd8"
+                ],
+                "powerPlatformTemplateAppIds": [ 
+                    "ba1cabe6-dfd2-4334-96c0-0dcdf86e18e5",
+                    "f6405520-7907-4464-8f6e-9889e2fb7d8f",
+                    "0fa58992-1b03-41e1-8b1d-4aa556715d20"
+                ]
+            },
+           "odspAppsDiscovery": {
+                "customCopilotTemplateAppIds": [ 
+                    "2809cd1e-353f-439b-a7ee-68986c1cec8a",
+                ]
+            }
+        }
     }
 }
