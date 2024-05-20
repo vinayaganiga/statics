@@ -22,7 +22,7 @@
           "resource": "https://service.powerapps.com/"
         },
         "appInstanceDefinition": {
-          "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+          "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
           "authorization": {
             "permissions": {
               "resourceSpecific": "{$.authorization.permissions.resourceSpecific}"
