@@ -25,10 +25,26 @@
                 "8bbbc813-6d87-497c-9e7c-e401607b2347",
                 "05061717-583f-47fd-aa25-ff6c3781c935",
                 "abb85324-1bfa-4029-b245-782d337fcde5",
-                "87000000-3db9-bb44-5015-0b4a327a6597"
+                "87000000-3db9-bb44-5015-0b4a327a6597",
+                "c962d216-55b9-482b-84cf-40aa7c4b1eea",
+                "280c0dfd-72bb-4297-b976-e4fab7ee82b8",
+                "ba4eda44-cd55-4e15-855c-0debafb0490b"
             ],
-            "copilotBotsAllowedAppIds":[
-                "2a8c8a32-0a19-4fe1-8cd7-f92453647c56"
+            "copilotBotsAllowedAppIds": [
+                "2a8c8a32-0a19-4fe1-8cd7-f92453647c56",
+                "fbd349eb-146f-4e94-af76-df4754f40749",
+                "bb78cc8b-2feb-484f-8add-1d85e3e20c65",
+                "d3d1be68-066c-4967-a74b-9edcf902dcfb",
+                "ba4eda44-cd55-4e15-855c-0debafb0490b",
+                "f1f1c9fe-bc63-4b4b-8cfc-472108147118",
+                "e63082f7-26f2-4ed6-80b5-00267eb6c96e",
+                "d136f17e-df84-47f2-97a4-13aa24c0c647",
+                "83b0e721-a17c-4284-8af3-7ac51418dd86",
+                "123aa4f9-83c9-4583-b6c7-e760c9f52815",
+                "b8ec4e1a-e05a-49d0-ba3a-05119b8b62c0",
+                "5be2b320-a5b7-4221-893c-dee506e4e365",
+                "49471a10-fdbc-4ffb-b0b8-944f3df985d9",
+                "6fef6052-d84d-4071-b679-8b542512a621"
             ],
             "federationBlockedAppIds": [
                 "99e46335-5250-4a68-8499-3e4f55e6f3f6",
@@ -38,20 +54,20 @@
                 "7c316234-ded0-4f95-8a83-8453d0876592"
             ],
             "powerAppsDiscovery": {
-                "gptTemplateAppIds": [ 
+                "gptTemplateAppIds": [
                     "09e19d1e-ea5e-4adf-af47-fb8dd013361f"
                 ],
-                "customCopilotTemplateAppIds": [ 
+                "customCopilotTemplateAppIds": [
                     "f6405520-7907-4464-8f6e-9889e2fb7d8f",
                     "958bb540-13ba-46ab-8d6a-8ab39e3e1fd8"
                 ],
-                "powerPlatformTemplateAppIds": [ 
+                "powerPlatformTemplateAppIds": [
                     "ba1cabe6-dfd2-4334-96c0-0dcdf86e18e5",
                     "f6405520-7907-4464-8f6e-9889e2fb7d8f",
                     "0fa58992-1b03-41e1-8b1d-4aa556715d20"
                 ]
             },
-           "odspAppsDiscovery": {
+            "oDSPAppsDiscovery": {
                 "customCopilotTemplateAppIds": [ 
                     "2809cd1e-353f-439b-a7ee-68986c1cec8a",
                 ]
