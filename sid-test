@@ -250,6 +250,7 @@
                         "short": "{$.name.short}",
                         "full": "{$.name.full}"
                     },
+                    "isBlockable": false,
                     "permissions": [
                         "identity",
                         "messageTeamMembers"
