@@ -1,0 +1,353 @@
+{
+    "value": {
+        "templatedAppDefinitions": [
+            {
+                "version": "0.0.5",
+                "id": "0fa58992-1b03-41e1-8b1d-4aa556715d20",
+                "name": "Shared Power Apps (Int)",
+                "shortDescription": "The Shared Power Apps (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
+                "longDescription": "The Shared Power Apps (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
+                "developerName": "Microsoft Corporation",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/powerapps_largeimage.png?v=0.3",
+                "getTemplatedAppInstanceUrl": {
+                    "urlTemplate": "https://tip2.api.powerapps.com/environments/{environment}/teamsApps/{templatedInstanceAppId}?api-version=2020-06-01",
+                    "authModel": "powerapps"
+                },
+                "searchTemplatedAppsUrl": {
+                    "urlTemplate": "https://tip2.api.powerapps.com/teamsApps?api-version=2020-06-01",
+                    "authModel": "powerapps"
+                },
+                "webApplicationInfo": {
+                    "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
+                    "resource": "https://service.powerapps.com/"
+                },
+                "appInstanceDefinition": {
+                    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+                    "manifestVersion": "1.8",
+                    "version": "{$.version}",
+                    "id": "{$.id}",
+                    "packageName": "{$.packageName}",
+                    "devicePermissions": [
+                        "geolocation",
+                        "media",
+                        "notifications",
+                        "midi",
+                        "openExternal"
+                    ],
+                    "developer": {
+                        "name": "Power Apps",
+                        "websiteUrl": "https://powerapps.microsoft.com/en-us/",
+                        "privacyUrl": "https://go.microsoft.com/fwlink/p/?LinkID=698505",
+                        "termsOfUseUrl": "https://go.microsoft.com/fwlink/p/?LinkID=698507"
+                    },
+                    "name": {
+                        "short": "{$.name.short}",
+                        "full": "{$.name.full}"
+                    },
+                    "description": {
+                        "short": "{$.description.short}",
+                        "full": "{$.description.full}"
+                    },
+                    "icons": {
+                        "outline": "{$.icons.outline}",
+                        "color": "{$.icons.color}"
+                    },
+                    "accentColor": "{$.accentColor}",
+                    "staticTabs": [
+                        {
+                            "entityId": "{$.staticTabs[0].entityId}",
+                            "name": "{$.staticTabs[0].name}",
+                            "contentUrl": "{$.staticTabs[0].contentUrl}",
+                            "websiteUrl": "{$.staticTabs[0].websiteUrl}",
+                            "scopes": [
+                                "personal"
+                            ]
+                        }
+                    ],
+                    "configurableTabs": [
+                        {
+                            "configurationUrl": "{$.configurableTabs[0].configurationUrl}",
+                            "canUpdateConfiguration": true,
+                            "scopes": [
+                                "team",
+                                "groupchat"
+                            ],
+                            "context": [
+                                "{$.configurableTabs[0].context}"
+                            ]
+                        }
+                    ],
+                    "permissions": [
+                        "Identity",
+                        "MessageTeamMembers"
+                    ],
+                    "validDomains": [
+                        "*.powerapps.com",
+                        "*.*.powerapps.com",
+                        "*.dynamics.com",
+                        "*.*.dynamics.com"
+                    ],
+                    "webApplicationInfo": {
+                        "id": "3e62f81e-590b-425b-9531-cad6683656cf",
+                        "resource": "https://apps.powerapps.com"
+                    }
+                }
+            },
+            {
+                "version": "0.0.7",
+                "id": "958bb540-13ba-46ab-8d6a-8ab39e3e1fd8",
+                "name": "Shared Copilots (Int)",
+                "developerName": "Microsoft Corporation",
+                "shortDescription": "The Shared Copilots (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
+                "longDescription": "The Shared Copilots (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/powerva_largeimage.png?v=0.3",
+                "getTemplatedAppInstanceUrl": {
+                    "urlTemplate": "https://tip1.api.powerapps.com/environments/{environment}/botApps/{templatedInstanceAppId}?api-version=2020-02-01",
+                    "authModel": "powerapps"
+                },
+                "searchTemplatedAppsUrl": {
+                    "urlTemplate": "https://tip1.api.powerapps.com/botApps?api-version=2020-06-01",
+                    "authModel": "powerapps"
+                },
+                "webApplicationInfo": {
+                    "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
+                    "resource": "https://service.powerapps.com/"
+                },
+                "appInstanceDefinition": {
+                    "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+                    "authorization": {
+                        "permissions": {
+                            "resourceSpecific": "{$.authorization.permissions.resourceSpecific}"
+                        }
+                    },
+                    "manifestVersion": "devPreview",
+                    "version": "{$.version}",
+                    "id": "{$.id}",
+                    "packageName": "com.example.myapp",
+                    "developer": {
+                        "name": "{$.developer.name}",
+                        "websiteUrl": "{$.developer.websiteUrl}",
+                        "privacyUrl": "{$.developer.privacyUrl}",
+                        "termsOfUseUrl": "{$.developer.termsOfUseUrl}",
+                        "mpnId": "{$.developer.mpnId}"
+                    },
+                    "name": {
+                        "short": "{$.name.short}",
+                        "full": "{$.name.full}"
+                    },
+                    "description": {
+                        "short": "{$.description.short}",
+                        "full": "{$.description.full}"
+                    },
+                    "icons": {
+                        "outline": "{$.icons.outline}",
+                        "color": "{$.icons.color}"
+                    },
+                    "accentColor": "{$.accentColor}",
+                    "bots": [
+                        {
+                            "botId": "{$.bots[0].botId}",
+                            "needsChannelSelector": false,
+                            "isNotificationOnly": false,
+                            "scopes": [
+                                "{$.bots[0].scopes}"
+                            ],
+                            "supportsFiles": true,
+                            "registrationInfo": {
+                                "source": "microsoftCopilotStudio",
+                                "environment": "{$.bots[0].registrationInfo.environment}"
+                            }
+                        }
+                    ],
+                    "permissions": [
+                        "Identity",
+                        "MessageTeamMembers"
+                    ],
+                    "validDomains": [
+                        "*.botframework.com",
+                        "login.microsoftonline.com",
+                        "*.*.customercareintelligence.net",
+                        "*.*.powerva.microsoft.com",
+                        "*.consent.azure-apim.net",
+                        "copilotstudio.test.microsoft.com",
+                        "copilotstudio.preprod.microsoft.com",
+                        "copilotstudio.dev.microsoft.com",
+                        "copilotstudio.microsoft.com",
+                        "copilotstudio.preview.microsoft.com",
+                        "*.azure-apim.net"
+                    ],
+                    "webApplicationInfo": {
+                        "id": "{$.webApplicationInfo.id}",
+                        "resource": "{$.webApplicationInfo.resource}"
+                    }
+                }
+            },
+            {
+                "version": "0.0.6",
+                "id": "09e19d1e-ea5e-4adf-af47-fb8dd013361f",
+                "name": "Shared Copilot Extensions (Int)",
+                "developerName": "Microsoft Corporation",
+                "shortDescription": "The Copilots Extensions (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft copilot studio in \"Copilot Extensions\" and can't install them in Teams.",
+                "longDescription": "The Copilots Extensions (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
+                "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/copilotextensions_largeimage.png",
+                "getTemplatedAppInstanceUrl": {
+                    "urlTemplate": "https://tip2.api.powerapps.com/environments/{environment}/gptApps/{templatedInstanceAppId}?api-version=2020-02-01",
+                    "authModel": "powerapps"
+                },
+                "getAppPackageUrl": {
+                    "urlTemplate": "https://tip2.api.powerapps.com/environments/{environment}/gptApps/{templatedInstanceAppId}/package?api-version=2023-06-01",
+                    "authModel": "powerapps"
+                },
+                "searchTemplatedAppsUrl": {
+                    "urlTemplate": "https://tip2.api.powerapps.com/gptApps?api-version=2020-06-01",
+                    "authModel": "powerapps"
+                },
+                "webApplicationInfo": {
+                    "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
+                    "resource": "https://service.powerapps.com/"
+                },
+                "appInstanceDefinition": {
+                    "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+                    "accentColor": "{$.accentColor}",
+                    "authorization": {
+                        "permissions": {
+                            "resourceSpecific": "{$.authorization.permissions.resourceSpecific}"
+                        }
+                    },
+                    "bots": [
+                        {
+                            "botId": "{$.bots[0].botId}",
+                            "needsChannelSelector": false,
+                            "isNotificationOnly": false,
+                            "scopes": [
+                                "{$.bots[0].scopes}"
+                            ],
+                            "supportsFiles": true,
+                            "registrationInfo": {
+                                "source": "microsoftCopilotStudio",
+                                "environment": "{$.bots[0].registrationInfo.environment}"
+                            }
+                        }
+                    ],
+                    "description": {
+                        "short": "{$.description.short}",
+                        "full": "{$.description.full}"
+                    },
+                    "developer": {
+                        "name": "{$.developer.name}",
+                        "websiteUrl": "{$.developer.websiteUrl}",
+                        "privacyUrl": "{$.developer.privacyUrl}",
+                        "termsOfUseUrl": "{$.developer.termsOfUseUrl}",
+                        "mpnId": "{$.developer.mpnId}"
+                    },
+                    "icons": {
+                        "outline": "{$.icons.outline}",
+                        "color": "{$.icons.color}"
+                    },
+                    "id": "{$.id}",
+                    "manifestVersion": "devPreview",
+                    "name": {
+                        "short": "{$.name.short}",
+                        "full": "{$.name.full}"
+                    },
+                    "permissions": [
+                        "identity",
+                        "messageTeamMembers"
+                    ],
+                    "validDomains": [
+                        "*.botframework.com",
+                        "*.*.botframework.com",
+                        "copilotstudio.test.microsoft.com",
+                        "copilotstudio.preprod.microsoft.com",
+                        "copilotstudio.dev.microsoft.com",
+                        "copilotstudio.microsoft.com",
+                        "copilotstudio.preview.microsoft.com"
+                    ],
+                    "version": "{$.version}",
+                    "webApplicationInfo": {
+                        "id": "{$.webApplicationInfo.id}",
+                        "resource": "{$.webApplicationInfo.resource}"
+                    }
+                }
+            },
+            {
+                "version": "0.0.1",
+                "id": "d6949b98-b305-43dc-a291-4c6cff67f88e",
+                "name": "Custom SharePoint Copilot (Int)",
+                "developerName": "Microsoft Corporation",
+                "shortDescription": "The SharePoint Copilot (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Sharepoint Copilot Extensions in \"Built by your colleagues\" and can't install them in Teams.",
+                "longDescription": "The SharePoint Copilot (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Sharepoint Copilot Extensions in \"Built by your colleagues\" and can't install them in Teams.",
+                "largeImageURL": "https://res.cdn.office.net/teamsappdata/evergreen-assets/apps/copilot_largeimage.png?v=0.3",
+                "getTemplatedAppInstanceUrl": {
+                    "urlTemplate": "https://substrate-sdf.office.com/KnowledgeGraph/api/v1.0/CustomCopilotBot/TeamsManifests/{templatedInstanceAppId}",
+                    "authModel": "substrate"
+                },
+                "searchTemplatedAppsUrl": {
+                    "urlTemplate": "https://substrate-sdf.office.com/KnowledgeGraph/api/v1.0/CustomCopilotBot/TeamsManifests",
+                    "authModel": "substrate"
+                },
+                "webApplicationInfo": {
+                    "id": "d6949b98-b305-43dc-a291-4c6cff67f88e",
+                    "resource": "api://botid-d6949b98-b305-43dc-a291-4c6cff67f88e"
+                },
+                "appInstanceDefinition": {
+                    "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+                    "manifestVersion": "devPreview",
+                    "version": "{$.version}",
+                    "id": "{$.id}",
+                    "packageName": "com.package.name",
+                    "developer": {
+                        "name": "{$.developer.name}",
+                        "websiteUrl": "{$.developer.websiteUrl}",
+                        "privacyUrl": "{$.developer.privacyUrl}",
+                        "termsOfUseUrl": "{$.developer.termsOfUseUrl}",
+                        "mpnId": "{$.developer.mpnId}"
+                    },
+                    "name": {
+                        "short": "{$.name.short}",
+                        "full": "{$.name.full}"
+                    },
+                    "description": {
+                        "short": "{$.description.short}",
+                        "full": "{$.description.full}"
+                    },
+                    "icons": {
+                        "outline": "{$.icons.outline}",
+                        "color": "{$.icons.color}"
+                    },
+                    "accentColor": "{$.accentColor}",
+                    "bots": [
+                        {
+                            "botId": "{$.bots[0].botId}",
+                            "needsChannelSelector": false,
+                            "isNotificationOnly": false,
+                            "scopes": [
+                                "{$.bots[0].scopes}"
+                            ],
+                            "supportsFiles": false,
+                            "supportsCalling": false,
+                            "supportsVideo": false,
+                            "registrationInfo": {
+                                "source": "onedriveSharepoint",
+                                "environment": "{$.bots[0].registrationInfo.environment}"
+                            }
+                        }
+                    ],
+                    "permissions": [
+                        "identity",
+                        "messageTeamMembers"
+                    ],
+                    "validDomains": [
+                        "*.botframework.com",
+                        "login.microsoftonline.com",
+                        "*.*.botframework.com"
+                    ],
+                    "webApplicationInfo": {
+                        "id": "{$.webApplicationInfo.id}",
+                        "resource": "{$.webApplicationInfo.resource}"
+                    }
+                }
+            }
+        ]
+    }
+}
