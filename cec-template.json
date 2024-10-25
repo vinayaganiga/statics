@@ -1,0 +1,105 @@
+{
+  "value": {
+    "templatedAppDefinitions": [
+      {
+        "version": "0.0.7",
+        "id": "958bb540-13ba-46ab-8d6a-8ab39e3e1fd8",
+        "name": "Shared Copilots (Int)",
+        "developerName": "Microsoft Corporation",
+        "shortDescription": "The Shared Copilots (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
+        "longDescription": "The Shared Copilots (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
+        "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/powerva_largeimage.png?v=0.3",
+        "getTemplatedAppInstanceUrl": {
+          "urlTemplate": "https://tip1.api.powerapps.com/environments/{environment}/botApps/{templatedInstanceAppId}?api-version=2020-02-01",
+          "authModel": "powerapps"
+        },
+        "searchTemplatedAppsUrl": {
+          "urlTemplate": "https://tip1.api.powerapps.com/botApps?api-version=2020-06-01",
+          "authModel": "powerapps"
+        },
+        "webApplicationInfo": {
+          "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
+          "resource": "https://service.powerapps.com/"
+        },
+        "appInstanceDefinition": {
+          "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+          "authorization": {
+            "permissions": {
+              "resourceSpecific": "{$.authorization.permissions.resourceSpecific}"
+            }
+          },
+          "manifestVersion": "devPreview",
+          "version": "{$.version}",
+          "id": "{$.id}",
+          "packageName": "com.example.myapp",
+          "developer": {
+            "name": "{$.developer.name}",
+            "websiteUrl": "{$.developer.websiteUrl}",
+            "privacyUrl": "{$.developer.privacyUrl}",
+            "termsOfUseUrl": "{$.developer.termsOfUseUrl}",
+            "mpnId": "{$.developer.mpnId}"
+          },
+          "name": {
+            "short": "{$.name.short}",
+            "full": "{$.name.full}"
+          },
+          "description": {
+            "short": "{$.description.short}",
+            "full": "{$.description.full}"
+          },
+          "icons": {
+            "outline": "{$.icons.outline}",
+            "color": "{$.icons.color}"
+          },
+          "accentColor": "{$.accentColor}",
+          "bots": [
+            {
+              "botId": "{$.bots[0].botId}",
+              "needsChannelSelector": false,
+              "isNotificationOnly": false,
+              "scopes": [
+                "{$.bots[0].scopes}"
+              ],
+              "supportsFiles": true,
+              "registrationInfo": {
+                "source": "microsoftCopilotStudio",
+                "environment": "{$.bots[0].registrationInfo.environment}",
+                "schemaName": "{$.bots[0].registrationInfo.schemaName}",
+                "clusterCategory": "{$.bots[0].registrationInfo.clusterCategory}"
+              }
+            }
+          ],
+          "permissions": [
+            "Identity",
+            "MessageTeamMembers"
+          ],
+          "validDomains": [
+            "*.botframework.com",
+            "login.microsoftonline.com",
+            "*.*.customercareintelligence.net",
+            "*.*.powerva.microsoft.com",
+            "*.consent.azure-apim.net",
+            "copilotstudio.test.microsoft.com",
+            "copilotstudio.preprod.microsoft.com",
+            "copilotstudio.dev.microsoft.com",
+            "copilotstudio.microsoft.com",
+            "copilotstudio.preview.microsoft.com",
+            "*.azure-apim.net"
+          ],
+          "webApplicationInfo": {
+            "id": "{$.webApplicationInfo.id}",
+            "resource": "{$.webApplicationInfo.resource}"
+          },
+          "copilotAgents": {
+            "customEngineAgents": [
+              {
+                "type": "{$.copilotAgents.customEngineAgents[0].type",
+                "id": "{$.copilotAgents.customEngineAgents[0].id}"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
