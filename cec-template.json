@@ -2,6 +2,258 @@
   "value": {
     "templatedAppDefinitions": [
       {
+        "version": "1.0.0",
+        "id": "ba1cabe6-dfd2-4334-96c0-0dcdf86e18e5",
+        "name": "Shared Power Apps",
+        "developerName": "Microsoft Corporation",
+        "shortDescription": "The Shared Power Apps app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
+        "longDescription": "The Shared Power Apps app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Power Apps in \"Built by your colleagues\" and can't install them in Teams.",
+        "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/powerapps_largeimage.png?v=0.2",
+        "getTemplatedAppInstanceUrl": {
+          "urlTemplate": "https://api.powerapps.com/environments/{environment}/teamsApps/{templatedInstanceAppId}?api-version=2020-06-01",
+          "authModel": "powerapps"
+        },
+        "searchTemplatedAppsUrl": {
+          "urlTemplate": "https://api.powerapps.com/teamsApps?api-version=2020-06-01",
+          "authModel": "powerapps"
+        },
+        "webApplicationInfo": {
+          "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
+          "resource": "https://service.powerapps.com/"
+        },
+        "appInstanceDefinition": {
+          "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+          "accentColor": "{$.accentColor}",
+          "configurableTabs": [
+            {
+              "configurationUrl": "{$.configurableTabs[0].configurationUrl}",
+              "canUpdateConfiguration": true,
+              "scopes": [
+                "team",
+                "groupchat"
+              ]
+            }
+          ],
+          "description": {
+            "short": "{$.description.short}",
+            "full": "{$.description.full}"
+          },
+          "developer": {
+            "name": "Power Apps",
+            "websiteUrl": "https://powerapps.microsoft.com/en-us/",
+            "privacyUrl": "https://go.microsoft.com/fwlink/p/?LinkID=698505",
+            "termsOfUseUrl": "https://go.microsoft.com/fwlink/p/?LinkID=698507"
+          },
+          "devicePermissions": [
+            "geolocation",
+            "media",
+            "notifications",
+            "midi",
+            "openExternal"
+          ],
+          "icons": {
+            "outline": "{$.icons.outline}",
+            "color": "{$.icons.color}"
+          },
+          "id": "{$.id}",
+          "manifestVersion": "1.7",
+          "name": {
+            "short": "{$.name.short}",
+            "full": "{$.name.full}"
+          },
+          "packageName": "{$.packageName}",
+          "permissions": [
+            "identity",
+            "messageTeamMembers"
+          ],
+          "staticTabs": [
+            {
+              "entityId": "{$.staticTabs[0].entityId}",
+              "name": "{$.staticTabs[0].name}",
+              "contentUrl": "{$.staticTabs[0].contentUrl}",
+              "websiteUrl": "{$.staticTabs[0].websiteUrl}",
+              "scopes": [
+                "personal"
+              ]
+            }
+          ],
+          "validDomains": [
+            "*.powerapps.com",
+            "*.*.powerapps.com",
+            "*.dynamics.com",
+            "*.*.dynamics.com"
+          ],
+          "version": "{$.version}",
+          "webApplicationInfo": {
+            "id": "3e62f81e-590b-425b-9531-cad6683656cf",
+            "resource": "https://apps.powerapps.com"
+          }
+        }
+      },
+      {
+        "version": "1.0.0",
+        "id": "f6405520-7907-4464-8f6e-9889e2fb7d8f",
+        "name": "Shared Copilots",
+        "developerName": "Microsoft Corporation",
+        "shortDescription": "The Shared Copilots app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
+        "longDescription": "The Shared Copilots app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
+        "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/powerva_largeimage.png?v=0.3",
+        "getTemplatedAppInstanceUrl": {
+          "urlTemplate": "https://api.powerapps.com/environments/{environment}/botApps/{templatedInstanceAppId}?api-version=2020-06-01",
+          "authModel": "powerapps"
+        },
+        "searchTemplatedAppsUrl": {
+          "urlTemplate": "https://api.powerapps.com/botApps?api-version=2020-06-01",
+          "authModel": "powerapps"
+        },
+        "webApplicationInfo": {
+          "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
+          "resource": "https://service.powerapps.com/"
+        },
+        "appInstanceDefinition": {
+          "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+          "authorization": {
+            "permissions": {
+              "resourceSpecific": "{$.authorization.permissions.resourceSpecific}"
+              }
+            },
+          "manifestVersion": "devPreview",
+          "version": "{$.version}",
+          "id": "{$.id}",
+          "packageName": "com.example.myapp",
+          "developer": {
+            "name": "{$.developer.name}",
+            "websiteUrl": "{$.developer.websiteUrl}",
+            "privacyUrl": "{$.developer.privacyUrl}",
+            "termsOfUseUrl": "{$.developer.termsOfUseUrl}",
+            "mpnId": "{$.developer.mpnId}"
+          },
+          "name": {
+            "short": "{$.name.short}",
+            "full": "{$.name.full}"
+          },
+          "description": {
+            "short": "{$.description.short}",
+            "full": "{$.description.full}"
+          },
+          "icons": {
+            "outline": "{$.icons.outline}",
+            "color": "{$.icons.color}"
+          },
+          "accentColor": "{$.accentColor}",
+          "bots": [
+            {
+              "botId": "{$.bots[0].botId}",
+              "needsChannelSelector": false,
+              "isNotificationOnly": false,
+              "scopes": [ "{$.bots[0].scopes}" ],
+              "supportsFiles": true,
+              "registrationInfo": {
+                "source":"microsoftCopilotStudio",
+                "environment": "{$.bots[0].registrationInfo.environment}"
+              }
+            }
+          ],
+          "permissions": [
+            "Identity",
+            "MessageTeamMembers"
+          ],
+          "validDomains": [
+            "*.botframework.com",
+            "*.*.botframework.com",
+            "copilotstudio.microsoft.com",
+            "copilotstudio.preview.microsoft.com"
+          ],
+          "webApplicationInfo": {
+            "id": "{$.webApplicationInfo.id}",
+            "resource": "{$.webApplicationInfo.resource}"
+          }
+        }
+      },
+      {
+        "version": "1.0.0",
+        "id": "9e2962b8-7eae-4124-86f3-1799090725e1",
+        "name": "Shared Copilot Extensions",
+        "developerName": "Microsoft Corporation",
+        "shortDescription": "The Copilots Extensions app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft copilot studio in \"Copilot Extensions\" and can't install them in Teams.",
+        "longDescription": "The Copilots Extensions app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Microsoft Copilot Studio in \"Copilot Extensions\" and can't install them in Teams.",
+        "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/copilotextensions_largeimage.png",
+        "getTemplatedAppInstanceUrl": {
+          "urlTemplate": "https://api.powerapps.com/environments/{environment}/gptApps/{templatedInstanceAppId}?api-version=2020-02-01",
+          "authModel": "powerapps"
+        },
+        "getAppPackageUrl": {
+          "urlTemplate": "https://api.powerapps.com/environments/{environment}/gptApps/{templatedInstanceAppId}/package?api-version=2023-06-01",
+          "authModel": "powerapps"
+        },
+        "searchTemplatedAppsUrl": {
+          "urlTemplate": "https://api.powerapps.com/gptApps?api-version=2020-06-01",
+          "authModel": "powerapps"
+        },
+        "webApplicationInfo": {
+          "id": "475226c6-020e-4fb2-8a90-7a972cbfc1d4",
+          "resource": "https://service.powerapps.com/"
+        },
+        "appInstanceDefinition": {
+          "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+          "accentColor": "{$.accentColor}",
+          "authorization": {
+            "permissions": {
+              "resourceSpecific": "{$.authorization.permissions.resourceSpecific}"
+              }
+            },
+          "bots": [
+            {
+              "botId": "{$.bots[0].botId}",
+              "needsChannelSelector": false,
+              "isNotificationOnly": false,
+              "scopes": [ "{$.bots[0].scopes}" ],
+              "supportsFiles": true,
+              "registrationInfo": {
+                "source":"microsoftCopilotStudio",
+                "environment": "{$.bots[0].registrationInfo.environment}"
+              }
+            }
+          ],
+          "description": {
+            "short": "{$.description.short}",
+            "full": "{$.description.full}"
+          },
+          "developer": {
+            "name": "{$.developer.name}",
+            "websiteUrl": "{$.developer.websiteUrl}",
+            "privacyUrl": "{$.developer.privacyUrl}",
+            "termsOfUseUrl": "{$.developer.termsOfUseUrl}",
+            "mpnId": "{$.developer.mpnId}"
+          },
+          "icons": {
+            "outline": "{$.icons.outline}",
+            "color": "{$.icons.color}"
+          },
+          "id": "{$.id}",
+          "manifestVersion": "devPreview",
+          "name": {
+            "short": "{$.name.short}",
+            "full": "{$.name.full}"
+          },
+          "permissions": [
+            "identity",
+            "messageTeamMembers"
+          ],
+          "validDomains": [
+            "*.botframework.com",
+            "*.*.botframework.com",
+            "copilotstudio.microsoft.com",
+            "copilotstudio.preview.microsoft.com"
+          ],
+          "version": "{$.version}",
+          "webApplicationInfo": {
+            "id": "{$.webApplicationInfo.id}",
+            "resource": "{$.webApplicationInfo.resource}"
+          }
+        }
+      },
+      {
         "version": "0.0.7",
         "id": "958bb540-13ba-46ab-8d6a-8ab39e3e1fd8",
         "name": "Shared Copilots (Int)",
