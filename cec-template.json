@@ -185,7 +185,7 @@
           "copilotAgents": {
             "customEngineAgents": [
               {
-                "type": "{$.copilotAgents.customEngineAgents[0].type",
+                "type": "{$.copilotAgents.customEngineAgents[0].type}",
                 "id": "{$.copilotAgents.customEngineAgents[0].id}"
               }
             ]
