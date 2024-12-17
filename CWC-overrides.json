@@ -1,0 +1,72 @@
+{
+    "value": {
+        "appDefinitions": [
+            {
+                "manifestVersion": "1.16",
+                "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+                "version": "3.3.5",
+                "name": "Copilot",
+                "accentColor": "#ffffff",
+                "authorization": {
+                    "permissions": {
+                        "resourceSpecific": []
+                    }
+                },
+                "categories": [
+                    "Microsoft"
+                ],
+                "defaultGroupCapability": {},
+                "developerName": "Microsoft Corporation",
+                "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+                "isAppIOSAcquirable": true,
+                "isBlockable": true,
+                "isCoreApp": false,
+                "isFullScreen": true,
+                "isFullTrust": true,
+                "isPinnable": true,
+                "isPreinstallable": true,
+                "isTeamsOwned": true,
+                "isTenantConfigurable": true,
+                "languageTag": "en-us",
+                "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+                "longDescription": "Copilot for Microsoft 365 combines the power of large language models (LLMs) with the intelligence of the Microsoft Graph to help you get things done. If authorized by your organization, you have the option to add plugins for more data sources (like apps and web content) that Copilot will interact with on your behalf.\n\nCopilot can synthesize data from multiple sources to give you a summary of things you need to catch up on, including your files, messages, meetings, emails, and people. It can also help you find and use info that’s buried in documents or lost in conversations. And with Copilot by your side, you can create content with it all.\n\nAsk a work-related question, or try one of these:\n\n- Draft a message with action items from my last meeting\n- Catch up on my unread emails\n- How do I write a request for proposal?\n\nAI-generated content may be incorrect, so sources are provided for your review when possible.\n\nDiscover more with these helpful links:\n\n- [Explore what's possible with Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [See what's new with Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Check out our [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+                "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                "publisherType": "FirstParty",
+                "shortDescription": "Your copilot for work",
+                "showLoadingIndicator": true,
+                "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+                "staticTabs": [
+                    {
+                        "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+                        "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+                        "name": "Copilot",
+                        "scopes": [
+                            "personal"
+                        ],
+                        "supportedPlatform": [
+                            "desktop"
+                        ]
+                    },
+                    {
+                        "entityId": "about",
+                        "scopes": [
+                            "personal"
+                        ],
+                        "supportedPlatform": [
+                            "desktop"
+                        ]
+                    }
+                ],
+                "supportedTenantRegions": [],
+                "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+                "validDomains": [
+                    "outlook.office.com"
+                ],
+                "webApplicationInfo": {
+                    "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+                    "resource": "https://outlook.office.com/"
+                }
+            }
+        ]
+    }
+}
