@@ -1,72 +1,3287 @@
 {
-    "value": {
-        "appDefinitions": [
-            {
-                "manifestVersion": "1.16",
-                "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
-                "version": "3.3.5",
-                "name": "Copilot",
-                "accentColor": "#ffffff",
-                "authorization": {
-                    "permissions": {
-                        "resourceSpecific": []
-                    }
-                },
-                "categories": [
-                    "Microsoft"
-                ],
-                "defaultGroupCapability": {},
-                "developerName": "Microsoft Corporation",
-                "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
-                "isAppIOSAcquirable": true,
-                "isBlockable": true,
-                "isCoreApp": false,
-                "isFullScreen": true,
-                "isFullTrust": true,
-                "isPinnable": true,
-                "isPreinstallable": true,
-                "isTeamsOwned": true,
-                "isTenantConfigurable": true,
-                "languageTag": "en-us",
-                "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
-                "longDescription": "Copilot for Microsoft 365 combines the power of large language models (LLMs) with the intelligence of the Microsoft Graph to help you get things done. If authorized by your organization, you have the option to add plugins for more data sources (like apps and web content) that Copilot will interact with on your behalf.\n\nCopilot can synthesize data from multiple sources to give you a summary of things you need to catch up on, including your files, messages, meetings, emails, and people. It can also help you find and use info that’s buried in documents or lost in conversations. And with Copilot by your side, you can create content with it all.\n\nAsk a work-related question, or try one of these:\n\n- Draft a message with action items from my last meeting\n- Catch up on my unread emails\n- How do I write a request for proposal?\n\nAI-generated content may be incorrect, so sources are provided for your review when possible.\n\nDiscover more with these helpful links:\n\n- [Explore what's possible with Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [See what's new with Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Check out our [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
-                "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
-                "publisherType": "FirstParty",
-                "shortDescription": "Your copilot for work",
-                "showLoadingIndicator": true,
-                "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
-                "staticTabs": [
-                    {
-                        "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
-                        "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
-                        "name": "Copilot",
-                        "scopes": [
-                            "personal"
-                        ],
-                        "supportedPlatform": [
-                            "desktop"
-                        ]
-                    },
-                    {
-                        "entityId": "about",
-                        "scopes": [
-                            "personal"
-                        ],
-                        "supportedPlatform": [
-                            "desktop"
-                        ]
-                    }
-                ],
-                "supportedTenantRegions": [],
-                "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
-                "validDomains": [
-                    "outlook.office.com"
-                ],
-                "webApplicationInfo": {
-                    "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
-                    "resource": "https://outlook.office.com/"
-                }
-            }
-        ]
+  "manifestVersion": "1.16",
+  "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+  "version": "3.3.6",
+  "name": "Copilot",
+  "accentColor": "#ffffff",
+  "authorization": {
+    "permissions": {
+      "resourceSpecific": []
     }
+  },
+  "categories": [
+    "Microsoft"
+  ],
+  "defaultGroupCapability": {},
+  "developerName": "Microsoft Corporation",
+  "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+  "isAppIOSAcquirable": true,
+  "isBlockable": true,
+  "isCoreApp": false,
+  "isFullScreen": true,
+  "isFullTrust": true,
+  "isPinnable": true,
+  "isPreinstallable": true,
+  "isTeamsOwned": true,
+  "isTenantConfigurable": true,
+  "languageTag": "en-us",
+  "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+  "longDescription": "Copilot for Microsoft 365 combines the power of large language models (LLMs) with the intelligence of the Microsoft Graph to help you get things done. If authorized by your organization, you have the option to add plugins for more data sources (like apps and web content) that Copilot will interact with on your behalf.\n\nCopilot can synthesize data from multiple sources to give you a summary of things you need to catch up on, including your files, messages, meetings, emails, and people. It can also help you find and use info that’s buried in documents or lost in conversations. And with Copilot by your side, you can create content with it all.\n\nAsk a work-related question, or try one of these:\n\n- Draft a message with action items from my last meeting\n- Catch up on my unread emails\n- How do I write a request for proposal?\n\nAI-generated content may be incorrect, so sources are provided for your review when possible.\n\nDiscover more with these helpful links:\n\n- [Explore what's possible with Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [See what's new with Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Check out our [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+  "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+  "publisherType": "FirstParty",
+  "shortDescription": "Your copilot for work",
+  "showLoadingIndicator": true,
+  "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+  "staticTabs": [
+    {
+      "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+      "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+      "name": "Copilot",
+      "scopes": [
+        "personal"
+      ],
+      "supportedPlatform": [
+        "desktop"
+      ]
+    },
+    {
+      "entityId": "about",
+      "scopes": [
+        "personal"
+      ],
+      "supportedPlatform": [
+        "desktop"
+      ]
+    }
+  ],
+  "supportedTenantRegions": [],
+  "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+  "validDomains": [
+    "outlook.office.com"
+  ],
+  "webApplicationInfo": {
+    "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+    "resource": "https://outlook.office.com/"
+  },
+  "supportedLanguages": [
+    "ar",
+    "bg",
+    "ca",
+    "cs",
+    "cy",
+    "da",
+    "de",
+    "el",
+    "en-gb",
+    "es",
+    "es-mx",
+    "et",
+    "fi",
+    "fil",
+    "fr",
+    "fr-ca",
+    "he",
+    "hi",
+    "hr",
+    "hu",
+    "id",
+    "is",
+    "it",
+    "ja-jp",
+    "ko",
+    "lt",
+    "lv",
+    "nb-no",
+    "nl",
+    "nn-no",
+    "pl",
+    "pt-br",
+    "pt-pt",
+    "ro",
+    "ru",
+    "sk",
+    "sl",
+    "sr",
+    "sv",
+    "th",
+    "tr",
+    "uk",
+    "vi",
+    "zh-cn",
+    "zh-hk",
+    "zh-mo",
+    "zh-sg",
+    "zh-tw",
+    "en-us"
+  ],
+  "localizedDefinitions": [
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "ar",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "تجمع Copilot لـ Microsoft 365 بين قوة نماذج اللغات الكبيرة (LLMs) وذكاء Microsoft Graph لمساعدتك على إنجاز المهام. إذا كنت مخولاً من قبل مؤسستك، فلديك خيار إضافة مكونات إضافية لمزيد من مصادر البيانات (مثل التطبيقات ومحتوى الويب) التي سيتفاعل معها Copilot نيابة عنك.\n\nيمكن أن يجمع Copilot البيانات من مصادر متعددة لتزويدك بملخص للأمور التي تحتاج إلى متابعتها، بما في ذلك الملفات والرسائل والاجتماعات ورسائل البريد الإلكتروني والأشخاص. يمكن أن يساعدك أيضاً في العثور على المعلومات المخفية في المستندات أو المعلومات المفقودة في المحادثات واستخدامها. وباستخدامك Copilot، يمكنك إنشاء محتوى يتضمن كل ما تحتاجه.\n\nاطرح سؤالاً متعلقاً بالعمل أو جرّب واحداً مما يلي:\n\n- أنشئ مسودة لرسالة مع عناصر إجراءات من اجتماعي الأخير\n- متابعة رسائل بريدي الإلكتروني غير المقروءة\n- كيف يمكنني كتابة طلب لتقديم عرض؟\n\nقد يكون المحتوى الذي تم إنشاؤه بواسطة الذكاء الاصطناعي غير صحيح، لذلك يتم توفير المصادر لتراجعها عندما يكون ذلك ممكناً.\n\nاكتشف المزيد من خلال هذه الروابط المفيدة:\n\n- [استكشاف القدرات الممكنة مع Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [الاطلاع على أحدث ميزات Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- اطلع على [الأسئلة المتداولة] لدينا (https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "مساعدك في العمل",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "bg",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot за Microsoft 365 съчетава силата на големите езикови модели (LLM) с интелигентността на Microsoft Graph, за да ви помогне да свършите работата си. Ако сте упълномощени от вашата организация, имате възможност да добавяте добавки за повече източници на данни (като приложения и уеб съдържание), с които Copilot ще взаимодейства от ваше име.\n\nCopilot може да синхронизира данни от множество източници, за да ви осигури резюме на нещата, с които трябва да наваксате, включително вашите файлове, съобщения, събрания, имейли и хора. Също така може да ви помогне да намерите и използвате информация, която е скрита в документи или изгубена в разговори. А с Copilot до вас можете да създавате съдържание с всичко това.\n\nЗадайте въпрос, свързан с работата, или изпробвайте едно от следните неща:\n\n– Изготвяне на чернова на съобщение с елементи за действие от последното ми събрание\n– Искам да наваксам с моите непрочетени имейли\n– Как да напиша искане за предложение?\n\nСъдържанието, генерирано от ИИ, може да е неправилно, така че, когато е възможно, се предоставят източниците, за да можете да ги прегледате.\n\nОткрийте повече с тези полезни връзки:\n\n– [Разгледайте какво е възможно с Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Вижте какво е новото в Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Разгледайте нашите [ЧЗВ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "ИИ помощник за работа",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "ca",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "El Copilot per al Microsoft 365 combina el poder dels grans models de llengües (LLM) amb la intel·ligència del Microsoft Graph per ajudar-vos a fer les coses. Si l'organització autoritza, teniu l'opció d'afegir complements per a més fonts de dades (com ara aplicacions i contingut web) amb què Copilot interactuarà en nom vostre.\n\nCopilot pot sintetitzar dades de diversos orígens per proporcionar-vos un resum de les coses que necessiteu per posar-vos al dia, com ara els fitxers, els missatges, les reunions, els correus electrònics i les persones. També us pot ajudar a trobar i utilitzar informació que està entera en documents o perduda en converses. I amb Copilot al vostre costat, podeu crear contingut amb ell.\n\nFeu una pregunta relacionada amb la feina o proveu una d'aquestes:\n\n- Esborrany d'un missatge amb elements d'acció de la meva última reunió\n- Poseu-me al dia amb els correus no llegits\n- Com puc escriure una sol·licitud de proposta?\n\nEl contingut generat per IA pot ser incorrecte, de manera que es proporcionen les fonts per a la revisió quan sigui possible.\n\nDescobriu més amb aquests enllaços útils:\n\n- [Exploreu el que és possible amb el Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Consulteu les novetats del Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Consulteu les [PMF](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "El vostre copilot per a la feina",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "cs",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Funkce Copilot pro Microsoft 365 kombinuje výkonnost velkých jazykových modelů (LLM) s inteligencí Microsoft Graphu a pomůže vám zvládnout vše, co potřebujete. Pokud to vaše organizace autorizovala, máte možnost přidat moduly plug-in pro další zdroje dat (jako jsou aplikace a webový obsah), se kterými bude Copilot pracovat za vás.\n\nCopilot dokáže syntetizovat data z více zdrojů, aby vám mohl poskytnout souhrn věcí, které potřebujete dohnat, včetně souborů, zpráv, schůzek, e-mailů a lidí. Může vám také pomoct najít a používat informace, které se v dokumentech těžko hledají nebo které se ztratí v konverzacích. S pomocí Copilota můžete vytvářet jakýkoliv obsah.\n\nPoložte otázku související s prací nebo vyzkoušejte jeden z těchto vstupů:\n\n– Napsat koncept zprávy s položkami akce z poslední schůzky\n– Dohnat nepřečtené e-maily\n– Jak napsat žádost o návrh?\n\nObsah vygenerovaný umělou inteligencí může být nesprávný, takže pokud je to možné, jsou vám k dispozici zdroje pro kontrolu.\n\nDalší informace najdete na těchto užitečných odkazech:\n\n– [Prozkoumejte, co je možné dělat s Copilotem](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Podívejte se na novinky v Copilotu](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Podívejte se na naše [nejčastější dotazy](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Váš kopilot pro práci",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "cy",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Mae Copilot ar gyfer Microsoft 365 yn cyfuno grym modelau iaith mawr (LLMs) gyda deallusrwydd Microsoft Graph i’ch helpu chi i gyflawni. Pe baech chi wedi eich awdurdodi gan eich sefydliad, mae gennych yr opsiwn i ychwanegu ategion ar gyfer rhagor o ffynonellau data (megis apiau a chynnwys gwe) y bydd Copilot yn rhyngweithio â nhw ar eich rhan.\n\nGall Copilot gasglu data o ffynonellau amrywiol er mwyn rhoi crynodeb i chi o bethau y mae angen i chi ddal i fyny â nhw, gan gynnwys eich ffeiliau, negeseuon, cyfarfodydd, e-byst a phobl. Hefyd, gall eich helpu i ddod o hyd i wybodaeth sydd heb ei amlygu mewn dogfennau, neu sydd ar goll mewn trafodaethau, a’i defnyddio. A gyda Copilot wrth eich ochr, gallwch greu cynnwys o’r cyfan.\n\nGofynnwch gwestiwn sy’n ymwneud â gwaith, neu rhowch gynnig ar un o’r rhain:\n\n- Drafftio neges gyda eitemau gweithredu o fy nghyfarfod diweddaraf\n- Dal i fyny ar fy e-byst sydd heb eu darllen\n- Sut mae ysgrifennu cais am gynnig?\n\nGall cynnwys a gynhyrchir gan AI fod yn anghywir, felly darperir ffynonellau ar gyfer eich adolygiad pan fo'n bosibl.\n\nDysgwch ragor gyda’r dolenni defnyddiol hyn:\n\n- [Archwiliwch beth sy’n bosibl gyda Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Gweld beth sy’n newydd yn Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Gwiriwch ein [Cwestiynau Cyffredin](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Eich copilot ar gyfer gwaith",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "da",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot til Microsoft 365 kombinerer styrken ved store sprogmodeller (LLMs) med intelligensen fra Microsoft Graph for at hjælpe dig med at få tingene gjort. Hvis det er godkendt af din organisation, har du mulighed for at tilføje plug-ins til flere datakilder (f.eks. apps og webindhold), som Copilot interagerer med på dine vegne.\n\nCopilot kan synkronisere data fra flere kilder for at give dig en oversigt over ting, du skal følge op på, herunder dine filer, meddelelser, møder, mails og personer. Det kan også hjælpe dig med at finde og bruge oplysninger, der er skjult i dokumenter eller gået tabt i samtaler. Og med Copilot ved din side kan du oprette indhold med det hele.\n\nStil et arbejdsrelateret spørgsmål eller prøv følgende:\n\n- Opret en meddelelse med handlingspunkter fra mit sidste møde\n– Komme ajour med min ulæste mails\n- Hvordan skriver jeg en anmodning om forslag?\n\nIndhold genereret af kunstig intelligens kan være ukorrekt, derfor leveres der kilder til din gennemgang, når det er muligt.\n\nFå mere at vide med disse nyttige links:\n\n- [Udforsk, hvad der er muligt med Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Se nyhederne i Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Se vores [ofte stillede spørgsmål](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Din copilot til arbejde",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "de",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot für Microsoft 365 kombiniert die Leistung von großen Sprachmodellen (LLMs) mit der Intelligenz des Microsoft Graph, um Ihnen zu helfen, Dinge zu erledigen. Wenn Sie von Ihrer Organisation autorisiert sind, haben Sie die Möglichkeit, Plug-Ins für weitere Datenquellen (wie Apps und Webinhalte) hinzuzufügen, mit denen Copilot in Ihrem Namen interagiert.\n\nCopilot kann Daten aus mehreren Quellen synthetisieren, um Ihnen eine Zusammenfassung der Dinge zu geben, die Sie nachholen müssen, einschließlich Ihrer Dateien, Nachrichten, Besprechungen, E-Mails und Personen. Es kann Ihnen dabei helfen, Informationen zu finden und zu verwenden, die in Dokumenten verschüttet sind oder in Unterhaltungen verloren gegangen sind. Und mit Copilot an Ihrer Seite können Sie mit all dem Inhalte erstellen.\n\nStellen Sie eine geschäftliche Frage, oder versuchen Sie es mit einer der folgenden:\n\n– Nachricht mit Aktionselementen aus meiner letzten Besprechung entwerfen\n– Aufholen meiner ungelesenen E-Mails\n– Wie schreibe ich eine Angebotsanfrage?\n\nKI-generierte Inhalte sind möglicherweise falsch, sodass nach Möglichkeit Quellen für Ihre Überprüfung bereitgestellt werden.\n\nEntdecken Sie mehr mit diesen hilfreichen Links:\n\n– [Erkunden, was mit Copilot möglich ist](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Neuigkeiten mit Copilot anzeigen](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Sehen Sie sich unsere [FAQ] an (https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Ihr Copilot für die Arbeit",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "el",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Το Copilot για Microsoft 365 συνδυάζει τη δύναμη των μοντέλων μεγάλων γλωσσών (LLM) με την ευφυΐα του Microsoft Graph για να σας βοηθήσει να ολοκληρώσετε τις εργασίες σας. Αν εξουσιοδοτηθείτε από τον οργανισμό σας, έχετε την επιλογή να προσθέσετε προσθήκες για περισσότερες προελεύσεις δεδομένων (όπως εφαρμογές και περιεχόμενο Web) με τις οποίες το Copilot θα αλληλεπιδρά εκ μέρους σας.\n\nΤο Copilot μπορεί να συνθέσει δεδομένα από πολλαπλές προελεύσεις για να σας δώσει μια σύνοψη των στοιχείων που πρέπει να ενημερωθείτε, συμπεριλαμβανομένων των αρχείων, των μηνυμάτων, των συσκέψεων, των μηνυμάτων ηλεκτρονικού ταχυδρομείου και των ατόμων. Μπορεί επίσης να σας βοηθήσει να βρείτε και να χρησιμοποιήσετε πληροφορίες που είναι θαμμένες σε έγγραφα ή χαμένες σε συνομιλίες. Και με το Copilot στο πλάι σας, μπορείτε να δημιουργήσετε περιεχόμενο με όλα αυτά.\n\nΚάντε μια ερώτηση σχετικά με την εργασία ή δοκιμάστε ένα από αυτά:\n\n- Σχεδιάστε ένα μήνυμα με στοιχεία ενεργειών από την τελευταία μου συνάντηση\n- Ενημερωθείτε για τα μη αναγνωσμένα μηνύματα ηλεκτρονικού ταχυδρομείου μου\n- Πώς μπορώ να γράψω μια αίτηση για πρόταση;\n\nΤο περιεχόμενο που δημιουργείται από τεχνητή νοημοσύνη μπορεί να είναι εσφαλμένο, επομένως παρέχονται πηγές για την αναθεώρησή σας όταν είναι δυνατόν.\n\nΑνακαλύψτε περισσότερα με αυτές τις χρήσιμες συνδέσεις:\n\n- [Εξερευνήστε τι είναι δυνατό με το Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Δείτε τι νέο υπάρχει με το Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Ρίξτε μια ματιά στις [Συνήθεις ερωτήσεις](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Το copilot σας για την εργασία",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "en-gb",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot for Microsoft 365 combines the power of large language models (LLMs) with the intelligence of the Microsoft Graph to help you get things done. If authorised by your organisation, you have the option to add plugins for more data sources (like apps and web content) that Copilot will interact with on your behalf.\n\nCopilot can synthesise data from multiple sources to give you a summary of things you need to catch up on, including your files, messages, meetings, emails, and people. It can also help you find and use info that’s buried in documents or lost in conversations. And with Copilot by your side, you can create content with it all.\n\nAsk a work-related question, or try one of these:\n\n- Draft a message with action items from my last meeting\n- Catch up on my unread emails\n- How do I write a request for proposal?\n\nAI-generated content may be incorrect, so sources are provided for your review when possible.\n\nDiscover more with these helpful links:\n\n- [Explore what's possible with Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [See what's new with Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Check out our [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Your copilot for work",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "es",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot para Microsoft 365 combina la eficacia de los modelos de lenguaje de gran tamaño (LLM) con la inteligencia del Microsoft Graph para ayudarle a hacer las cosas. Si su organización lo autoriza, tiene la opción de agregar complementos para más fuentes de datos (como aplicaciones y contenido web) con las que Copilot interactuará en su nombre.\n\nCopilot puede sintetizar datos de múltiples fuentes para brindarle un resumen de las cosas que necesita actualizar, incluidos sus archivos, mensajes, reuniones, correos electrónicos y personas. También puede ayudarle a encontrar y utilizar información oculta en documentos o perdida en conversaciones. Y, con Copilot a su lado, puede crear contenido con todo ello.\n\nFormule una pregunta relacionada con el trabajo o pruebe una de estas opciones:\n\n- Redactar un mensaje con elementos de acción de mi última reunión\n- Ponerse al día con mis correos electrónicos no leídos\n- Cómo escribir una solicitud de propuesta?\n\nEl contenido generado por la inteligencia artificial puede ser incorrecto, por lo que se proporcionan recursos para su revisión siempre que sea posible.\n\nObtenga más información con estos vínculos útiles:\n\n- [Explorar lo que es posible con Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Ver las novedades con Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Consulte las [PyR](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Su copiloto para el trabajo",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "es-mx",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot para Microsoft 365 combina la eficacia de los modelos de lenguaje de gran tamaño (LLM) con la inteligencia del Microsoft Graph para ayudarle a hacer las cosas. Si su organización lo autoriza, tiene la opción de agregar complementos para más fuentes de datos (como aplicaciones y contenido web) con las que Copilot interactuará en su nombre.\n\nCopilot puede sintetizar datos de múltiples fuentes para brindarle un resumen de las cosas que necesita actualizar, incluidos sus archivos, mensajes, reuniones, correos electrónicos y personas. También puede ayudarle a encontrar y utilizar información oculta en documentos o perdida en conversaciones. Y, con Copilot a su lado, puede crear contenido con todo ello.\n\nFormule una pregunta relacionada con el trabajo o pruebe una de estas opciones:\n\n- Redactar un mensaje con elementos de acción de mi última reunión\n- Ponerse al día con mis correos electrónicos no leídos\n- Cómo escribir una solicitud de propuesta?\n\nEl contenido generado por la inteligencia artificial puede ser incorrecto, por lo que se proporcionan recursos para su revisión siempre que sea posible.\n\nObtenga más información con estos vínculos útiles:\n\n- [Explorar lo que es posible con Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Ver las novedades con Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Consulte las [PyR](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Tu copiloto para el trabajo",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "et",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot Microsoft 365 jaoks ühendab suurte keelemudelite (LLM-ide) võimsuse Microsoft Graphi analüüsiga, et saaksite kõik tehtud. Kui teie asutus on andnud selleks õiguse, saate lisada lisandmooduleid täiendavatele andmeallikatele (nt rakenduste ja veebisisu), millega Copilot teie nimel suhtleb.\n\nCopilot saab sünteesida andmeid mitmest allikast, et anda teile kokkuvõte asjadest, millega teil on vaja ennast kurssi viia (sh teie failid, sõnumid, koosolekud, meilisõnumid ja inimesed). Samuti aitab see teil leida ja kasutada teavet, mis on peidetud sügavale dokumentidesse või vestlustes kaotsi läinud. Kasutades Copilotit saate selle kõige abil sisu luua.\n\nEsitage tööga seotud küsimus või proovige ühte järgmistest.\n\n- Koosta sõnum minu viimase koosoleku toiminguüksustega\n- Vii mind kurssi lugemata meilisõnumitega\n- Kuidas kirjutada pakkumistaotlust?\n\nTehisintellekti genereeritud sisu võib olla vale, seega antakse võimaluse korral teile allikad, mille saate üle vaadata.\n\nAvastage rohkem nende kasulike linkide abil:\n\n- [Uurige, mida Copilot teha suudab](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Vaadake, mis on Copilotis uut](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Tutvuge meie [KKK-ga](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Teie nutiabiline töö jaoks",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "fi",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot Microsoft 365:lle yhdistää suurten kielimallien (LLM) tehon Microsoft Graphin älykkyyteen, jotta saat enemmän aikaan. Jos organisaatiosi on valtuuttanut sinut, voit lisätä laajennuksia useampiin tietolähteisiin (kuten sovelluksiin ja verkkosisältöön), joita Copilot käyttää puolestasi.\n\nCopilot voi syntetisoida tietoja useista lähteistä, jotta saat yhteenvedon niistä asioista, jotka sinun on selvitettävä, kuten tiedostoista, viesteistä, kokouksista, sähköposteista ja henkilöistä. Se voi myös auttaa sinua löytämään ja käyttämään asiakirjoihin hautautunutta tai keskusteluihin kadonnutta tietoa. Kun Copilot on rinnallasi, voit luoda sisältöä siitä kaikesta.\n\nEsitä työhön liittyvä kysymys tai kokeile jotakin seuraavista:\n\n– Luonnostele viesti, joka sisältää edellisen kokouksen toimet\n– Pysy ajan tasalla lukemattomista sähköposteista\n– Miten kirjoitan tarjouspyynnön?\n\nTekoälyn luoma sisältö saattaa olla virheellistä, joten lähteet annetaan tarkistettavaksesi mahdollisuuksien mukaan.\n\nSaat lisätietoja näistä hyödyllisistä linkeistä:\n\n– [Tutustu Copilotin mahdollisuuksiin](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Tutustu Copilotin uusiin ominaisuuksiin](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Tutustu [Usein kysytyt kysymykset](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Avustajasi työntekoa varten",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "fil",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Pinagsasama ng Copilot para sa Microsoft 365 ang kapangyarihan ng mga malalaking model ng wika (LLM) at ang katalinuhan ng Microsoft Graph para matulungan kang magawa ang mga bagay-bagay. Kung pinahintulutan ng iyong organisasyon, may opsyon kang magdagdag ng mga plugin para sa karagdagang data source (tulad ng mga app at web content) na makikipag-ugnayan sa Copilot sa ngalan mo.\n\nMaaaring mag-synthesize ang Copilot ng data mula sa maraming source para mabigyan ka ng buod ng mga bagay na kailangan kang mahakhabol, kabilang ang iyong mga file, mensahe, pulong, email, at tao. Makakatulong din ito sa iyong maghanap at gumamit ng impormasyong nakatago sa mga dokumento o nawala sa mga pag-uusap. At kasama ang Copilot sa iyong tabi, maaari kang lumikha ng content kasama ang lahat ng ito.\n\nMagtanong ng may kaugnayan sa trabaho, o subukan ang isa sa mga ito:\n\n- Mag-draft ng mensaheng may mga item ng pagkilos mula sa huli kong pagpupulong\n- Makahabol sa aking mga hindi pa nababasang email\n- Paano ako magsusulat ng kahilingan para sa panukala?\n\nMaaaring hindi tama ang content na binuo ng AI, kaya ibinibigay ang mga pinagmulan para sa iyong pagsusuri kapag posible.\n\nTumuklas ng higit pa gamit ang mga kapaki-pakinabang na link na ito:\n\n- [I-explore kung ano ang posible sa Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Tingnan kung ano’ng bago sa Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Tingnan ang aming [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Ang copilot mo para sa trabaho",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "fr",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot pour Microsoft 365 combine la puissance des grands modèles linguistiques (LLM) avec l'intelligence de Microsoft Graph pour vous aider à faire avancer les choses. Si votre organisation l'autorise, vous avez la possibilité d'ajouter des plugins pour davantage de sources de données (comme les applications et le contenu Web) avec lesquelles Copilot interagira en votre nom.\n\nCopilot peut synthétiser des données provenant de plusieurs sources pour vous donner un résumé des éléments que vous devez rattraper, notamment vos fichiers, vos messages, vos réunions, vos e-mails et des personnes. Il peut également vous aider à trouver et à utiliser des informations enfouies dans des documents ou perdues dans des conversations. Et avec Copilot à vos côtés, vous pouvez créer du contenu avec tout cela.\n\nPosez une question liée au travail ou essayez l'une de celles-ci :\n\nRédiger un message avec les éléments d’action de ma dernière réunion\nRattraper mes emails non lus\nComment faire pour rédiger la requête d’une proposition ?\n\nLe contenu généré par l'IA peut être incorrect, c'est pourquoi les sources sont fournies pour votre examen lorsque cela est possible.\n\nDécouvrez-en davantage avec ces liens utiles :\n\n[Explorez ce qui est possible avec Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n[Découvrir les nouveautés avec Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\nConsultez notre [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Votre copilote au travail",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "fr-ca",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot pour Microsoft 365 combine la puissance des grands modèles linguistiques (LLM) avec l’intelligence de Microsoft Graph pour vous aider à faire avancer les choses. Si votre organisation l’autorise, vous avez la possibilité d’ajouter des modules d’extension pour davantage de sources de données (comme les applications et le contenu Web) avec lesquelles Copilot interagira en votre nom.\n\nCopilot peut synthétiser des données provenant de plusieurs sources pour vous donner un résumé des éléments que vous devez rattraper, notamment vos fichiers, vos messages, vos réunions, vos courriels et des personnes. Il peut également vous aider à trouver et à utiliser des informations enfouies dans des documents ou perdues dans des conversations. Et avec Copilot à vos côtés, vous pouvez créer du contenu avec tout cela.\n\nPoser une question liée au travail ou essayez l’une de celles-ci :\n\nRédiger un message avec les éléments d’action de ma dernière réunion\nRattraper mes emails non lus\nComment faire pour rédiger la requête d’une proposition?\n\nLe contenu généré par l’IA peut être incorrect, c’est pourquoi les sources sont fournies pour votre examen lorsque cela est possible.\n\nEn découvrir davantage avec ces liens utiles :\n\n[Explorer ce qui est possible avec Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n[Découvrir les nouveautés avec Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\nConsulter notre [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Votre copilote au travail",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "he",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot ל- Microsoft 365 משלב את העוצמה של מודלי שפה גדולים (LLMs) עם הבינה של Microsoft Graph כדי לעזור לך לבצע משימות. אם הארגון שלך אישר זאת, יש לך אפשרות להוסיף תוספים עבור מקורות נתונים נוספים (כגון אפליקציות ותוכן אינטרנט) ש- Copilot יקיים איתם אינטראקציה בשמך.\n\nCopilot יכול לסנתז נתונים ממקורות מרובים כדי לספק לך סיכום של דברים שעליך להתעדכן לגביהם, כולל הקבצים, ההודעות, הפגישות, הודעות הדואר האלקטרוני והאנשים שלך. הוא יכול גם לעזור לך למצוא מידע שנקבר במסמכים או אבד במהלך שיחה ולהשתמש בו. כאשר Copilot נמצא לצדך, תוכל ליצור תוכן עם כל זה.\n\nשאל שאלה הקשורה לעבודה, או נסה אחת מהאפשרויות הבאות:\n\n- ניסוח של הודעה עם פריטי פעולה מהפגישה האחרונה שלי\n- התעדכן בהודעות הדואר האלקטרוני שלי שלא נקראו\n- כיצד כותבים בקשה עבור הצעה?\n\nייתכן שתוכן שנוצר על-ידי בינה מלאכותית יהיה שגוי, ולכן במידת האפשר ניתנים מקורות לעיונך.\n\nגלה עוד באמצעות קישורים מועילים אלה:\n\n- [גלה מה אפשרי עם Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [גלה מה חדש ב- Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- נסה את [שאלות נפוצות] שלנו(https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "העוזר הצמוד שלך לעבודה",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "hi",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Microsoft 365 के लिए Copilot आपको काम पूरा करने में मदद करने के लिए Microsoft Graph की बुद्धिमत्ता के साथ बड़े भाषा मॉडल (LLM) की शक्ति को जोड़ता है. यदि आपके संगठन द्वारा अधिकृत किया गया है, तो आपके पास अधिक डेटा स्रोतों (जैसे ऐप्स और वेब सामग्री) के लिए प्लगइन्स जोड़ने का विकल्प होगा, जिनके साथ Copilot आपकी ओर से बातचीत करेगा.\n\nCopilot कई स्रोतों से डेटा को सिंथेसाइज़ कर सकता है ताकि आपको उन चीज़ों का सारांश मिल सके जिनके साथ आपको कैच अप करना है, जिनमें आपकी फ़ाइलें, संदेश, मीटिंग्स, ईमेल्स, और लोग शामिल हैं. यह आपको दस्तावेज़ों में दबी या बातचीत में खोई हुई जानकारी ढूँढने और उपयोग करने में भी मदद कर सकता है. और Copilot के साथ, आप इन सबके साथ सामग्री बना सकते हैं.\n\nकोई कार्य-संबंधी प्रश्न पूछें, या इनमें से किसी एक को आज़माएँ:\n\n- मेरी पिछली मीटिंग में से एक्शन आइटम्स के साथ कोई संदेश ड्राफ्ट करें\n- ऐसे ईमेल देखें जिन्हें पढ़ा न गया हो\n- मैं प्रस्ताव के लिए अनुरोध कैसे लिखूँ?\n\nAI द्वारा जनरेट की गई सामग्री गलत हो सकती है, इसलिए जब भी संभव हो, आपकी समीक्षा के लिए स्रोत प्रदान किए जाते हैं.\n\nइन मददगार लिंक्स के साथ अधिक खोजें:\n\n- [अन्वेषण करें कि Copilot के साथ क्या संभव है](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [देखें कि Copilot में नया क्या है](https://go.microsoft.com/fwlink/?linkid=2239566)\n- हमारे [FAQ] (https://go.microsoft.com/fwlink/?linkid=2238505) देखें",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "कार्य के लिए आपका copilot",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "hr",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot za Microsoft 365 objedinjuje snagu velikih jezičnih modela (LLM-ova) s inteligencijom servisa Microsoft Graph da biste lakše obavili što morate. Ako ih je vaša tvrtka ili ustanova odobrila, možete dodati dodatke za više izvora podataka (kao što su aplikacije i web-sadržaj) s kojima će Copilot stupati u interakciju u vaše ime.\n\nCopilot može sintetizirati podatke iz više izvora da bi vam pružio sažetak onoga što morate nadoknaditi, uključujući vaše datoteke, poruke, sastanke, poruke e-pošte i osobe. Može vam pomoći i da pronađete i koristite informacije koje su zatrpane u dokumentima ili izgubljene u razgovorima. Uz Copilot možete stvarati sadržaj sa svime.\n\nPostavite pitanje povezano s poslom ili isprobajte nešto od ovog:\n\n– Skiciraj poruku s akcijskim stavkama sa zadnjeg sastanka\n– Informiraj me o mojim nepročitanim porukama e-pošte\n– Kako napisati zahtjev za ponudu?\n\nSadržaj generiran umjetnom inteligencijom može biti netočan, stoga se navode izvori radi pregleda kada je to moguće.\n\nOtkrijte više pomoću ovih korisnih veza:\n\n– [Istražite što je moguće uz Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Pogledajte novosti u značajci Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Pogledajte naša [najčešća pitanja](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Vaš kopilot za posao",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "hu",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "A Microsoft 365-höz készült Copilot egyesíti a nagy nyelvi modellek (LLM-ek) hatékonyságát a Microsoft Graph intelligenciájával, hogy számos műveletet elvégezhessen. Ha a szervezete engedélyezte, lehetősége van beépülő modulokat hozzáadni további adatforrásokhoz (például alkalmazásokhoz és webes tartalmakhoz), amelyekkel a Copilot az Ön nevében kommunikál.\n\nA Copilot képes több forrásból származó adatokat szintetizálni, így összefoglaló információkat kaphat a szükséges teendőkről, beleértve a fájlokat, az üzeneteket, az értekezleteket, az e-maileket és a személyeket. Emellett segít megtalálni és felhasználni a dokumentumokban elrejtett vagy a beszélgetésekben elveszett információkat. Ha pedig a Copilotot a rendelkezésére áll, azzal is létrehozhat tartalmakat.\n\nTegyen fel egy munkával kapcsolatos kérdést, vagy próbálkozzon az alábbiak egyikével:\n\n– Üzenet piszkozatának elkészítése a legutóbbi értekezletem teendőivel\n– Olvasatlan e-mailjeim elolvasása\n– Hogyan írhatok javaslatkérést?\n\nElőfordulhat, hogy a mesterséges intelligencia által generált tartalom helytelen, ezért a források lehetőség szerint meg vannak adva a felülvizsgálathoz.\n\nA következő hasznos hivatkozásokkal többet is felfedezhet:\n\n– [A Copilot lehetőségeinek megismerése](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [A Copilot újdonságainak megismerése](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Tekintse meg a [Gyakori kérdéseket](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Az Ön munkahelyi másodpilótája",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "id",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot untuk Microsoft 365 menggabungkan kekuatan model bahasa besar (LLM) dengan kecerdasan Microsoft Graph untuk membantu Anda menyelesaikan berbagai hal. Jika diberikan izin oleh organisasi, Anda memiliki opsi untuk menambahkan plugin untuk sumber data lainnya (seperti aplikasi dan konten web) yang akan berinteraksi dengan Copilot atas nama Anda.\n\nCopilot dapat mensintesis data dari beberapa sumber untuk memberi Anda ringkasan dari hal-hal yang perlu Anda ketahui, termasuk file, pesan, rapat, email, dan orang-orang. Fitur ini juga dapat membantu Anda menemukan dan menggunakan informasi yang terkubur di dalam dokumen atau hilang dalam percakapan. Dan dengan Copilot di sisi Anda, Anda dapat membuat konten dengan semuanya.\n\nAjukan pertanyaan terkait pekerjaan, atau coba salah satu dari hal ini:\n\n- Buat draf pesan dengan item tindakan dari rapat terakhir saya\n- Ketahui info terbaru dari email yang belum dibaca\n- Bagaimana cara menulis permintaan untuk proposal?\n\nKonten yang dihasilkan oleh AI mungkin salah, maka sumber telah disediakan untuk Anda tinjau jika memungkinkan.\n\nTemukan lebih banyak hal dengan tautan bermanfaat ini:\n\n- [Jelajahi hal-hal yang dapat dilakukan dengan Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Lihat berita terbaru dari Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Lihat [FAQ] kami(https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Kopilot Anda untuk bekerja",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "is",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot fyrir Microsoft 365 sameinar krafta stórra tungumálalíkana og gervigreindar Microsoft Graph til að koma hlutunum í verk. Ef fyrirtækið þitt hefur heimild hefur þú möguleika á að bæta við viðbótum fyrir fleiri gagnagjafa (eins og forrit og vefefni) sem Copilot mun eiga í samskiptum við fyrir þína hönd.\n\nCopilot getur búið til gögn úr mörgum uppsprettum til að gera samantekt á því sem þú þarft að vinna upp, þ.m.t. skránum þínum, skilaboðum, fundum, tölvupósti og fólki. Það getur einnig hjálpað þér að finna og nota upplýsingar sem eru grafnar í skjölum eða týndar í samtölum. Og með Copilot geturðu búið til efni með því öllu.\n\nSpyrðu um eitthvað tengt vinnunni eða prófaðu eina af þessum:\n\n- Gerðu drög að skilaboðum með aðgerðaatriðum frá síðasta fundinum mínum\n- Farðu í gegnum ólesna tölvupósta\n- Hvernig skrifa ég beiðni um uppástungu?\n\nEfnið myndað af gervigreind getur verið rangt og því eru gefnar upp heimildir sem þú getur farið yfir þegar slíkt er fyrir hendi.\n\nUppgötvaðu meira með þessum gagnlegu tenglum:\n\n- [Kannaðu hvað er hægt að gera með Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Sjáðu það nýjasta varðandi Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Skoðaðu [algengar spurningar] (https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Gervigreindaraðstoð fyrir vinnuna",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "it",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot per Microsoft 365 combina la potenza dei modelli linguistici di grandi dimensioni (LLM) con l'intelligenza di Microsoft Graph, per aiutarti a portare a termine le tue attività. Se autorizzati dall'organizzazione, è possibile aggiungere plugin per altre fonti di dati (come app e contenuti web) con cui Copilot interagirà per conto dell'azienda.\n\nCopilot è in grado di sintetizzare i dati provenienti da più fonti per fornire un riepilogo delle cose da recuperare, compresi file, messaggi, riunioni, e-mail e persone. Può anche aiutarti a trovare e utilizzare informazioni sepolte nei documenti o perse nelle conversazioni. E con Copilot al tuo fianco, puoi creare contenuti con tutto questo.\n\nFai una domanda relativa al lavoro o prova con una di queste:\n\n- Redigi un messaggio con i punti d'azione dell'ultima riunione\n- Recupera i messaggi di posta elettronica non letti\n- Come si scrive una richiesta di offerta?\n\nI contenuti generati dall'intelligenza artificiale possono non essere corretti, pertanto vengono fornite le fonti per la verifica, quando possibile.\n\nScopri di più con questi collegamenti utili:\n\n- [Esplora le possibilità con Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Scopri le novità di Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Scopri le nostre [domande frequenti](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Il tuo copilota per il lavoro",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "ja-jp",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot for Microsoft 365 は、大規模言語モデル (LLM) の機能と Microsoft Graph のインテリジェンスを組み合わせて、作業を完了させるのに役立ちます。組織によって承認されている場合は、Copilot がユーザーの代わりに操作するデータ ソース (アプリや Web コンテンツなど) を増やすためにプラグインを追加できます。\n\nCopilot では、複数のソースのデータを合成して、ファイル、メッセージ、会議、メール、ユーザーなど、最新の情報を確認するのに必要な情報の概要を提供できます。また、ドキュメントや会話に埋もれている情報を見つけて使用するのにも役立ちます。Copilot を使用してコンテンツを作成できます。\n\n仕事関連の質問をするか、次のいずれかをお試しください:\n\n- 前回の会議のアクション アイテムを含むメッセージの下書きをする\n- 未読のメールを確認する\n- 提案の要求を書く方法は?\n\nAI によって生成されたコンテンツが間違っている可能性もあるため、可能な場合はレビュー用にソースが提供されます。\n\n次の役に立つリンクで詳細をご確認ください。\n\n- [Copilot でできることの確認](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Copilot の新機能を見る](https://go.microsoft.com/fwlink/?linkid=2239566)\n- [FAQ] (https://go.microsoft.com/fwlink/?linkid=2238505) を確認する",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Copilot for work",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "ko",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Microsoft 365용 Copilot은 대규모 언어 모델(LLM)의 강력한 기능과 Microsoft Graph의 인텔리전스를 결합하여 작업을 완료하는 데 도움을 줍니다. 조직에서 권한을 부여한 경우 Copilot이 사용자 대신 상호 작용할 더 많은 데이터 원본(예: 앱 및 웹 콘텐츠)에 대한 플러그 인을 추가할 수 있습니다.\n\nCopilot은 여러 원본의 데이터를 합성하여 파일, 메시지, 모임, 전자 메일 및 사람을 포함하여 사용자가 파악해야 하는 항목에 대한 요약을 제공할 수 있습니다. 또한 문서에 묻혀 있거나 대화 중에 잃어버린 정보를 찾아서 사용할 수 있도록 도와줍니다. 또한 Copilot과 함께라면 이 모든 것을 갖춘 콘텐츠를 만들 수 있습니다.\n\n작업 관련 질문을 하거나 다음 중 하나를 시도해 보세요.\n\n- 마지막 모임의 작업 항목이 포함된 메시지 초안 작성\n- 읽지 않은 전자 메일 확인\n- 제안 요청을 작성하려면 어떻게 하나요?\n\nAI로 생성된 콘텐츠는 정확하지 않을 수 있으므로 가능한 경우 검토를 위해 원본을 제공합니다.\n\n다음과 같은 유용한 링크를 사용하여 자세히 알아보기:\n\n- [Copilot을 사용하여 가능한 작업 살펴보기](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Copilot의 새로운 기능 보기](https://go.microsoft.com/fwlink/?linkid=2239566)\n- [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)를 확인하세요.",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "업무용 Copilot",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "„Copilot“",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "lt",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "„Copilot“, skirta „Microsoft 365“ sujungia didelių kalbų modelių (LLM) galimybes su „Microsoft Graph“ intelektu, kad būtų lengva atlikti užduotis. Jei leidžia jūsų organizacija, turite galimybę įtraukti priedų, skirtų daugiau duomenų šaltinių (pvz., programų ir žiniatinklio turinio), su kuriais „Copilot‘ veiks jūsų vardu.\n\n„Copilot“ gali sinchronizuoti duomenis iš kelių šaltinių, kad pateiktų suvestinę dalykų, kuriuos reikia peržiūrėti, įskaitant failus, pranešimus, susitikimus, el. laiškus ir žmones. Tai taip pat gali padėti rasti ir naudoti informaciją, kuri paslėpta dokumentuose arba prarasta pokalbiuose. Kartu su „Copilot“ galite sukurti turinį.\n\nUžduokite su darbu susijusį klausimą arba bandykite naudoti vieną iš šių:\n\n– Sukurti pranešimo juodraštį su veiksmais iš mano paskutinio susitikimo\n– Peržiūrėti mano neskaitytus el. laiškus\n– Kaip parašyti prašymą dėl pasiūlymo?\n\nDirbtinio intelekto sugeneruotas turinys gali būti neteisingas, todėl, jei įmanoma, pateikiami šaltiniai jūsų peržiūrai.\n\nAtraskite daugiau naudodami šiuos naudingus saitus:\n\n– [Sužinokite, ką įmanoma nuveikti naudojant „Copilot“](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Peržiūrėkite, kas nauja „Copilot“](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Peržiūrėkite mūsų [DUK](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Jūsų darbo pagalbininkas",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "„Copilot“",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "lv",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot pakalpojumam Microsoft 365 apvieno lielo valodu modeļu (LLM) jaudu ar Microsoft Graph inteliģenci, lai palīdzētu jums paveikt darbu. Ja jūsu organizācija to autorizē, jums ir iespēja pievienot spraudņus papildu datu avotiem (piemēram, programmām un tīmekļa saturam), ar kuriem Copilot mijiedarbosies jūsu vārdā.\n\nCopilot var apvienot datus no vairākiem avotiem, lai sniegtu kopsavilkumu par lietām, kas jums ir jāzina, tostarp par jūsu failiem, ziņojumiem, sapulcēm, e-pasta ziņojumiem un personām. Tas var arī palīdzēt atrast un izmantot informāciju, kas ir paslēpta dokumentos vai pazaudēta sarunās. Turklāt, ja Copilot ir blakus, varat izveidot saturu kopā ar to visu.\n\nUzdodiet ar darbu saistītu jautājumu vai izmēģiniet kādu no šiem:\n\n- Ziņojuma melnraksts ar darbības vienumiem no manas pēdējās sapulces\n- Izlasiet manus nelasītos e-pasta ziņojumus\n- Kā uzrakstīt piedāvājumu pieprasījumu?\n\nMākslīgā intelekta ģenerētais saturs var būt nepareizs, tāpēc avoti tiek nodrošināti pārskatīšanai, kad tas ir iespējams.\n\nAtklājiet vairāk, izmantojot šīs noderīgās saites:\n\n- [Izpētiet, kas ir iespējams, izmantojot Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Skatiet jaunumus, izmantojot Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Skatiet mūsu [bieži uzdotos jautājumus](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Jūsu copilot darbam",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "nb-no",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot for Microsoft 365 kombinerer kraften til store språkmodeller (LLM-er) med intelligensen til Microsoft Graph for å hjelpe deg med å få ting gjort. Hvis det er godkjent av organisasjonen, kan du legge til programtillegg for flere datakilder (for eksempel apper og nettinnhold) som Copilot vil samhandle med på dine vegne.\n\nCopilot kan syntetisere data fra flere kilder for å gi deg et sammendrag av ting du må følge med på, inkludert filer, meldinger, møter, e-postmeldinger og personer. Den kan også hjelpe deg med å finne og bruke informasjon som blir gjemt i dokumenter eller tapt i samtaler. Og med Copilot ved din side, kan du opprette innhold med alt sammen.\n\nStill et arbeidsrelatert spørsmål, eller prøv ett av disse:\n\n– Opprett utkast til en melding med gjøremål fra forrige møte\n– Bli oppdatert på uleste e-poster\n– Hvordan skriver jeg en forespørsel om forslag?\n\nInnhold generert av kunstig intelligens kan være feil, så kilder oppgis for gjennomgang når det er mulig.\n\nOppdag mer med disse nyttige koblingene:\n\n– [Utforsk hva som er mulig med Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Se hva som er nytt i Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Ta en titt på [Vanlige spørsmål](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Din kopilot for arbeid",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "nl",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot voor Microsoft 365 combineert de kracht van grote taalmodellen (LLM's) met de intelligentie van Microsoft Graph om u te helpen dingen gedaan te krijgen. Indien geautoriseerd door uw organisatie, hebt u de mogelijkheid om invoegtoepassingen toe te voegen voor meer gegevensbronnen (zoals apps en webinhoud) waarmee Copilot namens u samenwerkt.\n\nCopilot kan gegevens uit meerdere bronnen synthetiseren om u een overzicht te geven van wat u moet bijhouden, inclusief uw bestanden, berichten, vergaderingen, e-mailberichten en personen. Het kan u ook helpen bij het vinden en gebruiken van informatie die is verborgen in documenten of zoekgeraakt in gesprekken. En met Copilot aan uw zijde kunt u er inhoud mee maken.\n\nStel een werkgerelateerde vraag of probeer een van deze opties:\n\n- Stel een bericht op met actie-items uit mijn laatste vergadering\n- Mijn ongelezen e-mailberichten inhalen\n- Hoe kan ik een aanvraag voor een voorstel schrijven?\n\nDoor AI gegenereerde inhoud is mogelijk onjuist, dus er worden waar mogelijk bronnen verstrekt voor controle.\n\nOntdek meer met deze handige koppelingen:\n\n- [Ontdek wat er mogelijk is met Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Ontdek wat er nieuw is met Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Bekijk onze [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Uw copiloot voor werk",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "nn-no",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot for Microsoft 365 kombinerer krafta til store språkmodellar (LLM) med intelligensen til Microsoft Graph for å hjelpe deg med å få ting gjort. Dersom organisasjonen din har autorisert det, har du moglegheit til å leggje til programtillegg for å få endå fleire datakjelder (som appar og nettinnhald) som Copilot samhandlar med på dine vegner.\n\nCopilot kan setje saman data frå fleire kjelder for å gi deg eit samandrag av ting du må oppdatere deg på, inkludert filer, meldingar, møte, e-postmeldingar og personar. Copilot kan også hjelpe deg med å finne og bruke informasjon som er gravlagd i dokument eller tapt i samtalar. Og med Copilot ved sida di kan du opprette innhald av alt saman.\n\nSpør om noko arbeidsrelatert, eller prøv noko av dette:\n\n– Kladd ei melding med gjeremål frå det førre møtet\n– Bli oppdatert på dei ulesne e-postmeldingane mine\n– Korleis skriv eg ein førespurnad om forslag?\n\nInnhald som er generert av kunstig intelligens, kan vere feil. Difor er kjeldene tilgjengelege for gjennomgang når det er mogleg.\n\nOppdag meir med desse nyttige koplingane:\n\n– [Utforsk kva som er mogleg med Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Sjå kva som er nytt i Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Ta ein titt på [vanlege spørsmål](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Din kopilot på arbeid",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "pl",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Funkcja Copilot dla Microsoft 365 łączy w sobie możliwości dużych modeli językowych (LLM) z inteligencją usługi Microsoft Graph, aby ułatwić wykonywanie zadań. Po uzyskaniu autoryzacji od organizacji, masz możliwość dodania wtyczek dla większej liczby źródeł danych (takich jak aplikacje i zawartość internetowa), z którymi funkcja Copilot będzie współpracować w Twoim imieniu.\n\nFunkcja Copilot może syntetyzować dane z wielu źródeł w celu zapewnienia podsumowania tego, z czym musisz być na bieżąco, w tym z plikami, wiadomościami, spotkaniami, wiadomościami e-mail i kontaktami. Może również ułatwić znajdowanie i używanie informacji, które są ukryte w dokumentach lub zabłąkane w konwersacjach. Ponadto mając funkcję Copilot do dyspozycji, możesz tworzyć zawartość na podstawie tych wszystkich informacji.\n\nZadaj pytanie związane z pracą lub wypróbuj jedną z poniższych czynności:\n\n— Utwórz wersję roboczą wiadomości z czynnościami do wykonania z mojego ostatniego spotkania\n— Nadrób zaległości w przypadku nieprzeczytanych wiadomości e-mail\n— Jak mogę napisać zapytanie ofertowe?\n\nZawartość generowana przez sztuczną inteligencję może być nieprawidłowa, dlatego w miarę możliwości podawane są źródła do przeglądu.\n\nDowiedz się więcej, korzystając z tych przydatnych linków:\n\n— [Poznaj możliwości funkcji Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n— [Zobacz, co nowego w funkcji Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n— Zapoznaj się z naszą sekcją [Często zadawane pytania](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Twój pomocnik w pracy",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "pt-br",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "O Copilot para Microsoft 365 combina o poder dos LLMs (grandes modelos de linguagem) com a inteligência do Microsoft Graph para ajudá-lo a realizar suas tarefas. Se autorizado pela sua organização, você terá a opção de adicionar plug-ins para mais fontes de dados (como aplicativos e conteúdo da Web) com as quais o Copilot interagirá em seu nome.\n\nO Copilot pode sintetizar dados de várias fontes para fornecer um resumo do que você precisa atualizar, incluindo arquivos, mensagens, reuniões, emails e pessoas. Também pode ajudá-lo a localizar e usar informações ocultas em documentos ou perdidas em conversas. E com o Copilot ao seu lado, você pode criar conteúdo com tudo isso.\n\nFaça uma pergunta relacionada ao trabalho ou tente uma destas:\n\n- Elabore uma mensagem com itens de ação da minha última reunião\n- Acompanhe meus emails não lidos\n- Como redigir um pedido de proposta?\n\nO conteúdo gerado pela IA pode estar incorreto, portanto, as fontes são fornecidas para sua revisão sempre que possível.\n\nDescubra mais com esses links úteis:\n\n- [Explore o que é possível com o Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Veja as novidades do Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Confira nossas [Perguntas frequentes](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Seu copiloto para o trabalho",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "pt-pt",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "O Copilot para o Microsoft 365 combina o poder dos grandes modelos de linguagem (LLMs) com a inteligência do Microsoft Graph para ajudar a realizar as tarefas. Se tiver autorização da sua organização, tem a opção de adicionar plug-ins para mais origens de dados (como aplicações e conteúdos Web) com os quais o Copilot irá interagir em seu nome.\n\nO Copilot pode sintetizar dados de várias origens para lhe dar um resumo do que precisa de acompanhar, incluindo os seus ficheiros, mensagens, reuniões, e-mails e pessoas. Também pode ajudar a encontrar e utilizar informações que estão dispersas em documentos ou perdidas em conversações. Com o Copilot ao seu lado, pode criar conteúdos com tudo isto.\n\nFaça uma pergunta relacionada com o trabalho ou experimente uma destas:\n\n- Redija uma mensagem com os itens de ação da minha última reunião\n- Obter uma atualização sobre os meus e-mails não lidos\n- Como posso escrever um pedido de proposta?\n\nO conteúdo gerado por IA pode estar incorreto, pelo que são fornecidas as origens para que as possa rever, sempre que possível.\n\nDescubra mais com estas ligações úteis:\n\n- [Explore o que é possível com o Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Conheça as novidades do Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Consulte as nossas [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "O seu copiloto para o trabalho",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "ro",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot pentru Microsoft 365 combină puterea modelelor lingvistice mari (LLM) cu inteligența Microsoft Graph, pentru a vă ajuta să duceți lucrurile la bun sfârșit. Dacă primiți autorizare din partea organizației dvs., aveți opțiunea de a adăuga pluginuri pentru mai multe surse de date (cum ar fi aplicații și conținut web) cu care Copilot va interacționa în numele dvs.\n\nCopilot poate sintetiza date din mai multe surse, pentru a vă oferi un rezumat al lucrurilor cu care trebuie să vă puneți la curent, inclusiv fișierele, mesajele, întâlnirile, e-mailurile și persoanele dvs. De asemenea, acesta vă poate ajuta să găsiți și să utilizați informații ascunse în documente sau pierdute în conversații. Iar alături de Copilot, puteți crea conținut cu toate acestea.\n\nPuneți o întrebare legată de locul de muncă sau încercați una dintre acestea:\n\n- Elaborați un mesaj cu elemente de acțiune de la ultima mea întâlnire\n- Puneți-vă la curent cu e-mailurile mele necitite\n- Cum scriu o cerere de ofertă?\n\nConținutul generat de inteligența artificială poate fi incorect, de aceea vă sunt oferite surse pentru verificare atunci când este posibil.\n\nDescoperiți mai multe cu aceste linkuri utile:\n\n- [Explorați ce este posibil cu Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Vedeți noutățile cu Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Consultați [Întrebări frecvente](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Copilotul dvs. pentru locul de muncă",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "ru",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot для Microsoft 365 объединяет возможности больших языковых моделей (LLM) со средствами искусственного интеллекта Microsoft Graph, чтобы помочь вам выполнять необходимые действия. Если это разрешено вашей организацией, вы можете добавить подключаемые модули для дополнительных источников данных (например, приложений и веб-содержимого), с которыми Copilot будет взаимодействовать от вашего имени.\n\nCopilot может синтезировать данные из нескольких источников, чтобы предоставить вам сводку для наверстывания пропущенного, включая файлы, сообщения, собрания, письма и людей. Эта служба также помогает находить и использовать информацию, которая содержится в документах или скрыта в беседах. С помощью Copilot вы сможете создавать контент вместе со всем необходимым.\n\nЗадайте вопрос, связанный с работой, или попробуйте что-то из этого:\n\n– Составь сообщение с поручениями с моего последнего собрания\n– Наверстать мои непрочитанные письма\n– Как написать запрос на предложение?\n\nСодержимое, созданное искусственным интеллектом, может быть неверным, поэтому, по возможности, вам предоставляются источники для проверки.\n\nУзнайте больше с помощью следующих полезных ссылок:\n\n– [Узнайте, что можно делать с помощью Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Ознакомьтесь с новыми возможностями Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Посмотрите наши [вопросы и ответы](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Ваш помощник для работы",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "sk",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Služba Copilot pre Microsoft 365 kombinuje výkon veľkých jazykových modelov (LLM) s inteligenciou služby Microsoft Graph, aby vám pomohla vykonávať úlohy. Ak to vaša organizácia oprávňuje, máte možnosť pridať doplnky pre ďalšie zdroje údajov (napríklad aplikácie a webový obsah), s ktorými bude Copilot pracovať vo vašom mene.\n\nCopilot dokáže synchronizovať údaje z viacerých zdrojov, aby vám poskytol súhrn vecí, ktoré potrebujete dohnať, vrátane súborov, správ, schôdzí, e-mailov a ľudí. Môže vám tiež pomôcť nájsť a používať informácie, ktoré sú skryté v dokumentoch alebo sa stratili v konverzáciách. Spolu s funkciou Copilot môžete pomocou tohto všetkého vytvárať obsah.\n\nPoložte otázku súvisiacu s prácou alebo vyskúšajte niektorú z týchto možností:\n\n– Navrhni správu s úlohami z posledného schôdze\n– Chcem dohnať svoje neprečítané e-maily\n– Ako napíšem žiadosť o zaslanie ponuky?\n\nObsah vygenerovaný umelou inteligenciou môže byť nesprávny, preto sa zdroje poskytujú na kontrolu, keď je to možné.\n\nObjavte viac pomocou týchto užitočných prepojení:\n\n– [Preskúmajte, čo je možné s funkciou Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Zistite, čo je nové vo funkcii Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Pozrite si naše [najčastejšie otázky](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Váš kopilot na prácu",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "sl",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Storitev Copilot za Microsoft 365 združuje moč velikih jezikovnih modelov (LLM) z inteligenco Microsoft Graph, da vam pomaga pri vaših opravilih. Če vaša organizacija to dovoljuje, vam je na voljo možnost dodajanja vtičnikov za več podatkovnih virov (npr. aplikacije in spletna vsebina), s katerimi lahko storitev Copilot upravlja v vašem imenu.\n\nStoritev Copilot lahko združi podatke iz različnih virov, da povzame tisto, kar ste zamudili, vključno z vašimi datotekami, sporočili, srečanji, e-pošto, in osebami. Pomaga vam lahko tudi najti in uporabiti informacije, ki so zakopane v dokumentih ali izgubljene v pogovorih. S pomočjo storitve Copilot lahko iz vsega tega ustvarite vsebino.\n\nZastavite vprašanje, povezano z delom, ali poskusite nekaj od tega:\n\n- Ustvarite osnutek sporočila z elementi dejanj iz zadnjega srečanja\n- Preglejte neprebrana e-poštna sporočila\n- Kako napišem zahtevo za predlog?\n\nVsebina, ustvarjena z UI, morda ni pravilna, zato so na voljo viri za njen pregled, ko je to mogoče.\n\nVeč informacij najdete na teh koristnih povezavah:\n\n- [Odkrijte, kaj je mogoče s storitvijo Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Oglejte si novosti v storitvi Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Oglejte si [pogosta vprašanja](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Vaš kopilot za delo",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "sr",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot za Microsoft 365 kombinuje snagu velikih jezičkih modela (LLMs) sa obaveštavanjem usluge Microsoft Graph kako bi vam pomogao da završite stvari. Ako je ovlašćeno od strane vaše organizacije, imate opciju da dodate dodatne komponente za još izvora podataka (kao što su aplikacije i veb sadržaj) sa kojima će Copilot vršiti interakciju u vaše ime.\n\nCopilot može da obradi podatke iz više izvora da bi vam dao rezime stvari koje treba da nadoknadite, uključujući vaše datoteke, poruke, sastanke, e-poštu i osobe. Takođe vam može pomoći da pronađete i koristite informacije koje su zakopane u dokumentima ili izgubljene u razgovorima. I uz Copilot pored sebe, možete da kreirate sadržaj sa svim tim.\n\nPostavite pitanje u vezi sa poslom ili pokušajte sa nekim od ovih:\n\n– Napravi radnu verziju poruke sa stavkama radnje sa mog poslednjeg sastanka\n– Nadoknadi iz mojih nepročitanih poruka e-pošte\n– Kako da napišem zahtev za predlog?\n\nSadržaj koji generiše veštačka inteligencija može biti netačan, tako da su izvori obezbeđeni za vaš pregled kada je to moguće.\n\nOtkrijte više uz ove korisne veze:\n\n– [Istražite mogućnosti uz uslugu Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Pogledajte šta je novo u usluzi Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Pogledajte naša [Najčešća pitanja](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Vaš kopilot za posao",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "sv",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot för Microsoft 365 kombinerar kraften i stora språkmodeller (Large Language Models) med Microsoft Graph för att hjälpa dig att få saker gjorda. Om du har godkänts av din organisation kan du lägga till plugin-program för fler datakällor (till exempel appar och webbinnehåll) som Copilot interagerar med å dina vägnar.\n\nCopilot kan syntetisera data från flera källor för att ge dig en sammanfattning av saker du behöver bli uppdaterad om, inklusive dina filer, meddelanden, möten, e-postmeddelanden och personer. Det kan också hjälpa dig att hitta och använda information som är gömd i dokument eller som förlorats i konversationer. Och med Copilot vid din sida kan du skapa innehåll med allt.\n\nStäll en arbetsrelaterad fråga eller prova något av följande:\n\n– Skapa ett meddelande med åtgärdsobjekt från mitt senaste möte\n– Kom ikapp med olästa e-postmeddelanden\n– Hur gör jag för att skriva en begäran om förslag?\n\nAI-genererat innehåll kan vara felaktigt, därför tillhandahålls källor för granskning när det är möjligt.\n\nUpptäck mer med dessa användbara länkar:\n\n– [Utforska vad som är möjligt med Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Se vad som är nytt med Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Kolla in våra [vanliga frågor](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Din copilot för arbetet",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "th",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot สำหรับ Microsoft 365 ผสมผสานประสิทธิภาพของโมเดลภาษาขนาดใหญ่ (LLM) เข้ากับระบบอัจฉริยะของ Microsoft Graph เพื่อช่วยให้คุณทำสิ่งต่างๆ ได้สำเร็จ หากองค์กรของคุณอนุญาต คุณจะมีตัวเลือกในการเพิ่มปลั๊กอินสำหรับแหล่งข้อมูลเพิ่มเติม (เช่น แอปและเนื้อหาบนเว็บ) ที่ Copilot จะโต้ตอบด้วยในนามของคุณ\n\nCopilot สามารถสังเคราะห์ข้อมูลจากหลายแหล่งข้อมูลเพื่อให้คุณได้รับข้อมูลสรุปของสิ่งต่างๆ ที่คุณต้องการติดตาม รวมถึงไฟล์ ข้อความ การประชุม อีเมล และบุคคลของคุณ และยังสามารถช่วยคุณค้นหาและใช้ข้อมูลที่ฝังอยู่ในเอกสารหรือสูญหายไประหว่างการสนทนาได้อีกด้วย และเมื่อมี Copilot อยู่ข้างกาย คุณก็สามารถสร้างเนื้อหาได้จากทุกสิ่ง\n\nถามคําถามเกี่ยวกับงาน หรือลองหนึ่งในคําถามเหล่านี้:\n\n- ร่างข้อความที่มีรายการการดําเนินการจากการประชุมครั้งล่าสุดของฉัน\n- ติดตามอีเมลที่ยังไม่ได้อ่านของฉัน\n- ฉันจะเขียนคำขอสำหรับข้อเสนอได้อย่างไร\n\nเนื้อหาที่สร้างโดย AI อาจไม่ถูกต้อง ดังนั้น จึงมีการจัดเตรียมแหล่งข้อมูลเพื่อให้คุณตรวจสอบเมื่อเป็นไปได้\n\nค้นพบข้อมูลเพิ่มเติมด้วยลิงก์ที่มีประโยชน์เหล่านี้:\n\n- [สำรวจสิ่งที่เป็นไปได้ด้วย Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [ดูว่ามีอะไรใหม่ใน Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- ตรวจสอบ [คำถามที่ถามบ่อย](https://go.microsoft.com/fwlink/?linkid=2238505) ของเรา",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "ผู้ช่วยสำหรับการทำงานของคุณ",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "tr",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot for Microsoft 365, büyük dil modellerinin (LLM) gücünü Microsoft Graph zekasıyla birleştirerek işlerinizi tamamlamanıza yardımcı olur. Kuruluşunuz tarafından yetkilendirildiyseniz, Copilot'un adınıza etkileşim kurabileceği daha fazla veri kaynağı (uygulamalar ve web içeriği gibi) için eklenti ekleme seçeneğiniz vardır.\n\nCopilot, dosyalarınız, iletileriniz, toplantılarınız, e-postanız ve kişileriniz de dahil olmak üzere hakkında bilgi edinmek istediğiniz şeylerin özetini vermek için birden çok kaynakta yer alan verileri sentezler. Ayrıca belgelerde saklı olan veya konuşmalarda kaybolan bilgileri bulmanıza ve kullanmanıza yardımcı olabilir. Copilot'u kullanarak tüm bunlarla içerikler oluşturabilirsiniz.\n\nİşle ilgili bir soru sorun veya aşağıdakilerden birini deneyin:\n\n- Son toplantımdaki eylem öğelerini kullanarak bir ileti taslağı hazırla\n- Okunmamış e-postalarımı takip et\n- Teklif isteği yazısı nasıl yazarım?\n\nYapay zeka tarafından oluşturulan içerikler yanlış olabileceğinden mümkün olduğunda, incelemeniz için kaynaklar sağlanır.\n\nŞu yararlı bağlantılar ile daha fazlasını keşfedin:\n\n- [Copilot ile nelerin mümkün olduğunu keşfedin](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Copilot ile yenilikleri keşfedin](https://go.microsoft.com/fwlink/?linkid=2239566)\n- [SSS](https://go.microsoft.com/fwlink/?linkid=2238505) bölümümüzü keşfedin",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "İş için yardımcı pilotunuz",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "uk",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot для Microsoft 365 поєднує можливості великих мовних моделей (LLM) із інтелектом Microsoft Graph, щоб допомагати вам виконувати завдання. З дозволу вашої організації ви можете додавати плагіни для інших джерел даних, як-от програм і вебвмісту, з якими Copilot взаємодіятиме від вашого імені.\n\nCopilot може синтезувати дані з кількох джерел, щоб надати підсумки того, що вам потрібно надолужити, зокрема стосовно файлів, повідомлень, нарад, електронних листів і людей. Крім того, помічник також може допомогти відшукати та використати інформацію, сховану в документах або загублену в розмовах. Усе це дає змогу створювати вміст разом із Copilot.\n\nПоставте запитання, пов’язане з роботою, або спробуйте один із цих запитів:\n\n– Створити чернетку повідомлення з подальшими діями на основі моєї останньої наради\n– Переглянути непрочитані електронні листи\n– Як написати запит на пропозицію?\n\nВміст, створений штучним інтелектом, може бути неправильним, тому за можливості надаються джерела для перевірки.\n\nДізнайтеся більше за допомогою цих корисних посилань:\n\n– [Огляд можливостей Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n– [Дізнайтеся про нові можливості Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n– Ознайомтеся із [запитаннями та вiдповiдями](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Ваш помічник для роботи",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "vi",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "Copilot dành cho Microsoft 365 kết hợp sức mạnh của mô hình ngôn ngữ lớn (LLM) với sự thông minh của Microsoft Graph để giúp bạn hoàn thành công việc. Nếu được tổ chức của bạn ủy quyền, bạn có tùy chọn thêm plugin để có nhiều nguồn dữ liệu hơn (như ứng dụng và nội dung web) mà Copilot sẽ thay mặt bạn tương tác.\n\nCopilot có thể tổng hợp dữ liệu từ nhiều nguồn để cung cấp cho bạn bản tóm tắt về những thứ bạn cần cập nhật, bao gồm các tệp, tin nhắn, cuộc họp, email và mọi người. Nó cũng có thể giúp bạn tìm và sử dụng thông tin bị ẩn trong tài liệu hoặc bị thất lạc trong các cuộc trò chuyện. Và với Copilot bên cạnh, bạn có thể tạo nội dung bằng tất cả những thứ đó.\n\nĐặt câu hỏi liên quan đến công việc hoặc thử một trong những câu hỏi sau:\n\n- Soạn thảo một tin nhắn với các mục hành động từ cuộc họp gần đây nhất của tôi\n- Cập nhật các email chưa đọc của tôi\n- Làm thế nào để viết một yêu cầu đề xuất?\n\nNội dung do AI tạo có thể không chính xác nên chúng tôi sẽ cung cấp các nguồn để bạn xem xét khi có thể.\n\nKhám phá thêm với các liên kết hữu ích sau:\n\n- [Khám phá những gì có thể làm được với Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [Xem tin tức mới với Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Hãy xem [Câu hỏi thường gặp](https://go.microsoft.com/fwlink/?linkid=2238505) của chúng tôi",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "Copilot dành cho công việc của bạn",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "zh-cn",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "适用于 Microsoft 365 的 Copilot 功能将大型语言模型 (LLM) 的强大功能与 Microsoft Graph 的智能相结合，以帮助完成工作。如果获得了组织的授权，则可以选择为更多数据源(例如应用和 Web 内容)添加插件，Copilot 将代表你与这些数据源进行交互。\n\nCopilot 可以合成来自多个源的数据，为你提供需要跟进内容的摘要，包括文件、消息、会议、电子邮件和人员。还可以帮助查找和使用隐藏在文档中或对话中丢失的信息。借助 Copilot，就可以利用这一切创建内容。\n\n提出与工作相关的问题，或尝试以下操作之一:\n\n- 起草包含上次会议中拟办事项的消息\n- 跟进我的未读电子邮件\n- 如何撰写需求提案?\n\nAI 生成的内容可能不正确，因此在可能的情况下会提供来源以供审查。\n\n通过以下有用的链接发现更多信息:\n\n- [了解如何使用 Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [查看 Copilot 的新增功能](https://go.microsoft.com/fwlink/?linkid=2239566)\n- 查看我们的 [常见问题解答](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "你的工作助手",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "zh-hk",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "適用於 Microsoft 365 的 Copilot 結合了大型語言模型 (LLM) 的功能與 Microsoft Graph 的智慧，可協助您完成工作。如果您組織授權，您可以選擇為 Copilot 將代表您互動的更多資料來源 (例如應用程式和 Web 內容) 新增外掛程式。\n\nCopilot 可以合成來自多個來源的資料，為您提供需要處理之項目摘要，包括您的檔案、訊息、會議、電子郵件和人員。它也可以協助您尋找並使用文件中已隱藏或交談中遺失的資訊。有了 Copilot，您就可以使用它來建立所有內容。\n\n詢問與工作相關的問題，或嘗試下列其中一項:\n\n- 撰寫一封包含我上一個會議動作項目的郵件\n- 處理我未讀取的電子郵件\n- 如何撰寫提案要求?\n\nAI 產生的內容可能並不正確，因此如有可能會提供來源供您檢閱。\n\n使用這些實用連結探索更多:\n\n- [探索 Copilot 的可能性](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [查看 Copilot 的新增功能](https://go.microsoft.com/fwlink/?linkid=2239566)\n- 查看我們的 [常見問題集](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "您工作的副手",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "zh-mo",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "適用於 Microsoft 365 的 Copilot 結合了大型語言模型 (LLM) 的功能與 Microsoft Graph 的智慧，可協助您完成工作。如果您組織授權，您可以選擇為 Copilot 將代表您互動的更多資料來源 (例如應用程式和 Web 內容) 新增外掛程式。\n\nCopilot 可以合成來自多個來源的資料，為您提供需要處理之項目摘要，包括您的檔案、訊息、會議、電子郵件和人員。它也可以協助您尋找並使用文件中已隱藏或交談中遺失的資訊。有了 Copilot，您就可以使用它來建立所有內容。\n\n詢問與工作相關的問題，或嘗試下列其中一項:\n\n- 撰寫一封包含我上一個會議動作項目的郵件\n- 處理我未讀取的電子郵件\n- 如何撰寫提案要求?\n\nAI 產生的內容可能並不正確，因此如有可能會提供來源供您檢閱。\n\n使用這些實用連結探索更多:\n\n- [探索 Copilot 的可能性](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [查看 Copilot 的新增功能](https://go.microsoft.com/fwlink/?linkid=2239566)\n- 查看我們的 [常見問題集](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "您工作的副手",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "zh-sg",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "适用于 Microsoft 365 的 Copilot 功能将大型语言模型 (LLM) 的强大功能与 Microsoft Graph 的智能相结合，以帮助完成工作。如果获得了组织的授权，则可以选择为更多数据源(例如应用和 Web 内容)添加插件，Copilot 将代表你与这些数据源进行交互。\n\nCopilot 可以合成来自多个源的数据，为你提供需要跟进内容的摘要，包括文件、消息、会议、电子邮件和人员。还可以帮助查找和使用隐藏在文档中或对话中丢失的信息。借助 Copilot，就可以利用这一切创建内容。\n\n提出与工作相关的问题，或尝试以下操作之一:\n\n- 起草包含上次会议中拟办事项的消息\n- 跟进我的未读电子邮件\n- 如何撰写需求提案?\n\nAI 生成的内容可能不正确，因此在可能的情况下会提供来源以供审查。\n\n通过以下有用的链接发现更多信息:\n\n- [了解如何使用 Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [查看 Copilot 的新增功能](https://go.microsoft.com/fwlink/?linkid=2239566)\n- 查看我们的 [常见问题解答](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "你的工作助手",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    },
+    {
+      "manifestVersion": "1.16",
+      "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
+      "version": "3.3.6",
+      "name": "Copilot",
+      "accentColor": "#ffffff",
+      "authorization": {
+        "permissions": {
+          "resourceSpecific": []
+        }
+      },
+      "categories": [
+        "Microsoft"
+      ],
+      "defaultGroupCapability": {},
+      "developerName": "Microsoft Corporation",
+      "developerUrl": "https://go.microsoft.com/fwlink/?linkid=2240275",
+      "isAppIOSAcquirable": true,
+      "isBlockable": true,
+      "isCoreApp": false,
+      "isFullScreen": true,
+      "isFullTrust": true,
+      "isPinnable": true,
+      "isPreinstallable": true,
+      "isTeamsOwned": true,
+      "isTenantConfigurable": true,
+      "languageTag": "zh-tw",
+      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_largeImage.png?v=3.3.5",
+      "longDescription": "適用於 Microsoft 365 的 Copilot 結合了大型語言模型 (LLM) 的功能與 Microsoft Graph 的智慧，可協助您完成工作。如果您組織授權，您可以選擇為 Copilot 將代表您互動的更多資料來源 (例如應用程式和 Web 內容) 新增外掛程式。\n\nCopilot 可以合成來自多個來源的資料，為您提供需要處理之項目摘要，包括您的檔案、訊息、會議、電子郵件和人員。它也可以協助您尋找並使用文件中已隱藏或交談中遺失的資訊。有了 Copilot，您就可以使用它來建立所有內容。\n\n詢問與工作相關的問題，或嘗試下列其中一項:\n\n- 撰寫一封包含我上一個會議動作項目的郵件\n- 處理我未讀取的電子郵件\n- 如何撰寫提案要求?\n\nAI 產生的內容可能並不正確，因此如有可能會提供來源供您檢閱。\n\n使用這些實用連結探索更多:\n\n- [探索 Copilot 的可能性](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [查看 Copilot 的新增功能](https://go.microsoft.com/fwlink/?linkid=2239566)\n- 查看我們的 [常見問題集](https://go.microsoft.com/fwlink/?linkid=2238505)",
+      "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+      "publisherType": "FirstParty",
+      "shortDescription": "您工作的副手",
+      "showLoadingIndicator": true,
+      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
+      "staticTabs": [
+        {
+          "contentUrl": "https://outlook.office.com/hosted/semanticoverview/Users('OID:{user.id}@{user.tenant.id}')?hostApp=hub&isanonymous=true&culture={locale}&mysite={mySiteDomain}&hostName={app.host.name}&hostClientType={app.host.clientType}&sessionId={appSessionId}",
+          "entityId": "entity1-d870f6cd-4aa5-4d42-9626-ab690c041429",
+          "name": "Copilot",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        },
+        {
+          "entityId": "about",
+          "scopes": [
+            "personal"
+          ],
+          "supportedPlatform": [
+            "desktop"
+          ]
+        }
+      ],
+      "supportedTenantRegions": [],
+      "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2244682",
+      "validDomains": [
+        "outlook.office.com"
+      ],
+      "webApplicationInfo": {
+        "id": "d870f6cd-4aa5-4d42-9626-ab690c041429",
+        "resource": "https://outlook.office.com/"
+      }
+    }
+  ]
 }
