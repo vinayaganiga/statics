@@ -29,6 +29,13 @@
   "longDescription": "Copilot for Microsoft 365 combines the power of large language models (LLMs) with the intelligence of the Microsoft Graph to help you get things done. If authorized by your organization, you have the option to add plugins for more data sources (like apps and web content) that Copilot will interact with on your behalf.\n\nCopilot can synthesize data from multiple sources to give you a summary of things you need to catch up on, including your files, messages, meetings, emails, and people. It can also help you find and use info that’s buried in documents or lost in conversations. And with Copilot by your side, you can create content with it all.\n\nAsk a work-related question, or try one of these:\n\n- Draft a message with action items from my last meeting\n- Catch up on my unread emails\n- How do I write a request for proposal?\n\nAI-generated content may be incorrect, so sources are provided for your review when possible.\n\nDiscover more with these helpful links:\n\n- [Explore what's possible with Copilot](https://go.microsoft.com/fwlink/?linkid=2240275)\n- [See what's new with Copilot](https://go.microsoft.com/fwlink/?linkid=2239566)\n- Check out our [FAQ](https://go.microsoft.com/fwlink/?linkid=2238505)",
   "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
   "publisherType": "FirstParty",
+  "requiredServicePlanIdSets": [
+    {
+      "requiredServicePlanIds": [
+        "3f30311c-6b1e-48a4-ab79-725b469da960"
+      ]
+    }
+  ],
   "shortDescription": "Your copilot for work",
   "showLoadingIndicator": true,
   "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162/b5abf2ae-c16b-4310-8f8a-d3bcdb52f162_smallImage.png?v=3.3.5",
