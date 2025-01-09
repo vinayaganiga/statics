@@ -37,14 +37,7 @@
                     },
                     {
                         "id": "b5abf2ae-c16b-4310-8f8a-d3bcdb52f162",
-                        "state": "InstalledAndPermanent",
-                        "requiredServicePlanIdSets": [
-                            {
-                                "requiredServicePlanIds": [
-                                    "3f30311c-6b1e-48a4-ab79-725b469da960"
-                                ]
-                            }
-                        ]
+                        "state": "InstalledAndPermanent"
                     },
                     {
                         "id": "20c3440d-c67e-4420-9f80-0e50c39693df",
