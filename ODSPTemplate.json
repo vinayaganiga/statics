@@ -4,11 +4,12 @@
       {
         "version": "0.0.1",
         "id": "d6949b98-b305-43dc-a291-4c6cff67f88e",
-        "name": "Custom SharePoint Copilot (Int)",
+        "name": "SharePoint Agent (Int)",
         "developerName": "Microsoft Corporation",
-        "shortDescription": "The SharePoint Copilot (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Sharepoint Copilot Extensions in \"Built by your colleagues\" and can't install them in Teams.",
-        "longDescription": "The SharePoint Copilot (Int) app in your organization's app store represents all apps created on that particular platform. If you block this app at the org level or for specific users, those users can't see any apps from Sharepoint Copilot Extensions in \"Built by your colleagues\" and can't install them in Teams.",
-        "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/copilot_largeimage.png?v=0.3",
+        "isBlockable": false,
+        "shortDescription": "This is an agent created based on the sources selected by its owner.",
+        "longDescription": "Agents are created and customized based on the sources selected, including SharePoint sites, documents, and other files. Users can start conversations with these agents directly from a SharePoint site or by adding an agent to a Teams group chat and get the support they need to optimize their productivity with AI. ",
+        "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/sharepoint_agent.png?v=0.3",
         "getTemplatedAppInstanceUrl": {
           "urlTemplate": "https://substrate-sdf.office.com/KnowledgeGraph/api/v1.0/CustomCopilotBot/TeamsManifests/{templatedInstanceAppId}",
           "authModel": "substrate"
@@ -18,12 +19,12 @@
           "authModel": "substrate"
         },
         "webApplicationInfo": {
-          "id": "d6949b98-b305-43dc-a291-4c6cff67f88e",
-          "resource": "api://botid-d6949b98-b305-43dc-a291-4c6cff67f88e"
+          "id":"d6949b98-b305-43dc-a291-4c6cff67f88e",
+          "resource":"api://botid-d6949b98-b305-43dc-a291-4c6cff67f88e"
         },
         "appInstanceDefinition": {
-          "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
-          "manifestVersion": "1.16",
+          "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+          "manifestVersion": "devPreview",
           "version": "{$.version}",
           "id": "{$.id}",
           "packageName": "com.package.name",
@@ -52,14 +53,17 @@
               "botId": "{$.bots[0].botId}",
               "needsChannelSelector": false,
               "isNotificationOnly": false,
-              "scopes": [
-                "{$.bots[0].scopes}"
-              ],
+              "scopes": [ "{$.bots[0].scopes}" ],
               "supportsFiles": false,
               "supportsCalling": false,
-              "supportsVideo": false
+              "supportsVideo": false,
+              "registrationInfo": {
+                "source":"onedriveSharepoint",
+                "environment": "{$.bots[0].registrationInfo.environment}"
+              },
+              "commandLists": [ "{$.bots[0].commandLists}" ]
             }
-          ],
+          ],         
           "permissions": [
             "identity",
             "messageTeamMembers"
@@ -74,7 +78,7 @@
             "resource": "{$.webApplicationInfo.resource}"
           }
         }
-      }
+      } 
     ]
   }
 }
