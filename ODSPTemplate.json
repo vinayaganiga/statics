@@ -60,8 +60,7 @@
               "registrationInfo": {
                 "source":"onedriveSharepoint",
                 "environment": "{$.bots[0].registrationInfo.environment}"
-              },
-              "commandLists": "{$.bots[0].commandLists}"
+              }
             }
           ],         
           "permissions": [
