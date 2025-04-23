@@ -62,7 +62,12 @@
                 "environment": "{$.bots[0].registrationInfo.environment}"
               }
             }
-          ],         
+          ],
+          "copilotGpts": [
+            {
+              "id": "{$.copilotGpts[0].id}",
+            }
+          ],
           "permissions": [
             "identity",
             "messageTeamMembers"
