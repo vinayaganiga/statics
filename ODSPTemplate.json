@@ -63,11 +63,13 @@
               }
             }
           ],
-          "copilotGpts": [
-            {
-              "id": "{$.copilotGpts[0].id}",
-            }
-          ],
+          "copilotAgents": {
+            "declarativeAgents": [
+              {
+                "id": "{$.copilotGpts[0].id}"
+              }
+            ]
+         },
           "permissions": [
             "identity",
             "messageTeamMembers"
