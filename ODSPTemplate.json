@@ -66,13 +66,6 @@
               ]
             }
           ],
-          "copilotAgents": {
-            "declarativeAgents": [
-              {
-                "id": "{$.copilotAgents.declarativeAgents[0].id}"
-              }
-            ]
-         },
           "permissions": [
             "identity",
             "messageTeamMembers"
