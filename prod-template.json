@@ -24,8 +24,8 @@
           "resource":"api://botid-d6949b98-b305-43dc-a291-4c6cff67f88e"
         },
         "appInstanceDefinition": {
-          "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.23/MicrosoftTeams.schema.json",
-          "manifestVersion": "devPreview",
+          "$schema": "{$.schema}",
+          "manifestVersion": "{$.manifestVersion}",
           "version": "{$.version}",
           "id": "{$.id}",
           "packageName": "com.package.name",
