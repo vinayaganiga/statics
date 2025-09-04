@@ -19,8 +19,8 @@
           "authModel": "substrate"
         },
         "webApplicationInfo": {
-          "id":"d6949b98-b305-43dc-a291-4c6cff67f88e",
-          "resource":"api://botid-d6949b98-b305-43dc-a291-4c6cff67f88e"
+          "id": "d6949b98-b305-43dc-a291-4c6cff67f88e",
+          "resource": "api://botid-d6949b98-b305-43dc-a291-4c6cff67f88e"
         },
         "appInstanceDefinition": {
           "$schema": "{$.$schema}",
@@ -53,39 +53,41 @@
               "botId": "{$.bots[0].botId}",
               "needsChannelSelector": false,
               "isNotificationOnly": false,
-              "scopes": [ "{$.bots[0].scopes}" ],
+              "scopes": [
+                "{$.bots[0].scopes}"
+              ],
               "supportsFiles": false,
               "supportsCalling": false,
               "supportsVideo": false,
               "registrationInfo": {
-                "source":"onedriveSharepoint",
+                "source": "onedriveSharepoint",
                 "environment": "{$.bots[0].registrationInfo.environment}"
               },
               "commandLists": [
-              {
-                "scopes": [
-                  "team",
-                  "groupChat"
-                ],
-                "commands": [
-                  {
-                    "title": "Summarize recent files",
-                    "type": "prompt",
-                    "prompt": "Summarize recent files"
-                  },
-                  {
-                    "title": "Tell me more about...",
-                    "type": "prompt",
-                    "prompt": "Tell me more about..."
-                  },
-                  {
-                    "title": "How can you help me?",
-                    "type": "prompt",
-                    "prompt": "How can you help me?"
-                  }
-                ]
-              }
-            ]
+                {
+                  "scopes": [
+                    "team",
+                    "groupChat"
+                  ],
+                  "commands": [
+                    {
+                      "title": "Summarize recent files",
+                      "type": "prompt",
+                      "prompt": "Summarize recent files"
+                    },
+                    {
+                      "title": "Tell me more about...",
+                      "type": "prompt",
+                      "prompt": "Tell me more about..."
+                    },
+                    {
+                      "title": "How can you help me?",
+                      "type": "prompt",
+                      "prompt": "How can you help me?"
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "permissions": [
@@ -102,7 +104,7 @@
             "resource": "{$.webApplicationInfo.resource}"
           }
         }
-      } 
+      }
     ]
   }
 }
