@@ -23,7 +23,7 @@
           "resource":"api://botid-d6949b98-b305-43dc-a291-4c6cff67f88e"
         },
         "appInstanceDefinition": {
-          "$schema": "{$.schema}",
+          "$schema": "{$.$schema}",
           "manifestVersion": "{$.manifestVersion}",
           "version": "{$.version}",
           "id": "{$.id}",
