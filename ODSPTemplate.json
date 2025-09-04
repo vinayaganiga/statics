@@ -62,8 +62,30 @@
                 "environment": "{$.bots[0].registrationInfo.environment}"
               },
               "commandLists": [
-                "{$.bots[0].commandLists}"
-              ]
+              {
+                "scopes": [
+                  "team",
+                  "groupChat"
+                ],
+                "commands": [
+                  {
+                    "title": "Summarize recent files",
+                    "type": "prompt",
+                    "prompt": "Summarize recent files"
+                  },
+                  {
+                    "title": "Tell me more about...",
+                    "type": "prompt",
+                    "prompt": "Tell me more about..."
+                  },
+                  {
+                    "title": "How can you help me?",
+                    "type": "prompt",
+                    "prompt": "How can you help me?"
+                  }
+                ]
+              }
+            ]
             }
           ],
           "permissions": [
