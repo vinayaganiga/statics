@@ -1,0 +1,99 @@
+{
+    "value": {
+        "templatedAppDefinitions": [
+          {
+            "version": "1.0.0",
+            "id": "9009da34-6d9c-4f1a-9c73-1e8372878761",
+            "name": "Channel Agent Int",
+            "developerName": "Microsoft Corporation",
+            "isBlockable": true,
+            "isTenantConfigurable": true,
+            "shortDescription": "Work smarter, get insights faster, and make a bigger impact with AI.",
+            "longDescription": "Work smarter, get insights faster, and make a bigger impact with AI.",
+            "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/project_agent_statusagentlogo.png?v=2.0.0",
+            "getTemplatedAppInstanceUrl": {
+              "urlTemplate": "",
+              "authModel": "tca"
+            },
+            "searchTemplatedAppsUrl": {
+              "urlTemplate": "",
+              "authModel": "tca"
+            },
+            "webApplicationInfo": {
+              "id": "<TBA>",
+              "resource": "<TBA>"
+            },          
+            "agenticUserTemplate" : {
+               "agentIdentityBlueprintId": "3206dd1c-aea0-4122-bcd7-5ff0890ad6b8"
+             },
+             "bots":[
+               {
+                 "id": "3206dd1c-aea0-4122-bcd7-5ff0890ad6b8"
+               }
+             ],
+            "appInstanceDefinition": {
+              "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+              "manifestVersion": "devPreview",
+              "version": "{$.version}",
+              "id": "{$.id}",
+              "packageName": "com.package.name",
+              "developer": {
+                "name": "{$.developer.name}",
+                "websiteUrl": "{$.developer.websiteUrl}",
+                "privacyUrl": "{$.developer.privacyUrl}",
+                "termsOfUseUrl": "{$.developer.termsOfUseUrl}",
+                "mpnId": "{$.developer.mpnId}"
+              },
+              "name": {
+                "short": "{$.name.short}",
+                "full": "{$.name.full}"
+              },
+              "description": {
+                "short": "{$.description.short}",
+                "full": "{$.description.full}"
+              },
+              "icons": {
+                "outline": "{$.icons.outline}",
+                "color": "{$.icons.color}"
+              },
+              "accentColor": "{$.accentColor}",
+              "bots": [
+                {
+                  "botId": "{$.bots[0].botId}",
+                  "needsChannelSelector": false,
+                  "isNotificationOnly": false,
+                  "scopes": [
+                    "team",
+                    "groupChat"
+                  ],
+                  "supportsFiles": false,
+                  "supportsCalling": false,
+                  "supportsVideo": false,
+                  "registrationInfo": {
+                    "source": "standard",
+                    "environment": "00000000-0000-0000-0000-000000000000"
+                  }
+                }
+              ],
+              "permissions": [
+                "identity",
+                "messageTeamMembers"
+              ],
+              "supportedChannelTypes": [
+                "sharedChannels",
+                "privateChannels"
+              ],
+              "validDomains": [
+                "*.botframework.com",
+                "login.microsoftonline.com",
+                "*.*.botframework.com"
+              ],
+              "webApplicationInfo": {
+                "id": "{$.webApplicationInfo.id}",
+                "resource": "{$.webApplicationInfo.resource}"
+              }
+            }
+          }
+        ]
+    }
+}
