@@ -1,0 +1,95 @@
+{
+  "value": {
+    "templatedAppDefinitions": [
+      {
+        "version": "0.0.1",
+        "id": "d6949b98-b305-43dc-a291-4c6cff67f88e",
+        "name": "SharePoint Agent (Int)",
+        "developerName": "Microsoft Corporation",
+        "isBlockable": false,
+        "shortDescription": "This is an agent created based on the sources selected by its owner.",
+        "longDescription": "Agents are created and customized based on the sources selected, including SharePoint sites, documents, and other files. Users can start conversations with these agents directly from a SharePoint site or by adding an agent to a Teams group chat and get the support they need to optimize their productivity with AI. ",
+        "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/sharepoint_agent.png?v=0.3",
+        "getTemplatedAppInstanceUrl": {
+          "urlTemplate": "https://substrate.office.com/TaigerService/ODSPCustomCopilot/apps/{templatedInstanceAppId}/manifest",
+          "authModel": "substrateTaiger"
+        },
+        "searchTemplatedAppsUrl": {
+          "urlTemplate": "https://substrate.office.com/TaigerService/ODSPCustomCopilot/apps/manifests",
+          "authModel": "substrateTaiger"
+        },
+        "webApplicationInfo": {
+          "id": "d6949b98-b305-43dc-a291-4c6cff67f88e",
+          "resource": "api://botid-d6949b98-b305-43dc-a291-4c6cff67f88e"
+        },
+        "appInstanceDefinition": {
+          "$schema": "{$.$schema}",
+          "manifestVersion": "{$.manifestVersion}",
+          "version": "{$.version}",
+          "id": "{$.id}",
+          "packageName": "com.package.name",
+          "developer": {
+            "name": "{$.developer.name}",
+            "websiteUrl": "{$.developer.websiteUrl}",
+            "privacyUrl": "{$.developer.privacyUrl}",
+            "termsOfUseUrl": "{$.developer.termsOfUseUrl}",
+            "mpnId": "{$.developer.mpnId}"
+          },
+          "name": {
+            "short": "{$.name.short}",
+            "full": "{$.name.full}"
+          },
+          "description": {
+            "short": "{$.description.short}",
+            "full": "{$.description.full}"
+          },
+          "icons": {
+            "outline": "{$.icons.outline}",
+            "color": "{$.icons.color}"
+          },
+          "accentColor": "{$.accentColor}",
+          "bots": [
+            {
+              "botId": "{$.bots[0].botId}",
+              "needsChannelSelector": false,
+              "isNotificationOnly": false,
+              "scopes": [
+                "{$.bots[0].scopes}"
+              ],
+              "supportsFiles": false,
+              "supportsCalling": false,
+              "supportsVideo": false,
+              "registrationInfo": {
+                "source": "onedriveSharepoint",
+                "environment": "{$.bots[0].registrationInfo.environment}"
+              }
+            }
+          ],
+          "permissions": [
+            "identity",
+            "messageTeamMembers"
+          ],
+          "validDomains": [
+            "*.botframework.com",
+            "login.microsoftonline.com",
+            "*.*.botframework.com"
+          ],
+          "webApplicationInfo": {
+            "id": "d6949b98-b305-43dc-a291-4c6cff67f88e",
+            "resource": "{$.webApplicationInfo.resource}"
+          },
+          "authorization": {
+            "permissions": {
+              "resourceSpecific": [
+                {
+                  "name": "ChannelMessage.Read.Group",
+                  "type": "Application"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}
