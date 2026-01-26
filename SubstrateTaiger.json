@@ -11,11 +11,11 @@
         "longDescription": "Agents are created and customized based on the sources selected, including SharePoint sites, documents, and other files. Users can start conversations with these agents directly from a SharePoint site or by adding an agent to a Teams group chat and get the support they need to optimize their productivity with AI. ",
         "largeImageURL": "https://statics.teams.cdn.office.net/evergreen-assets/apps/sharepoint_agent.png?v=0.3",
         "getTemplatedAppInstanceUrl": {
-          "urlTemplate": "https://substrate.office.com/TaigerService/ODSPCustomCopilot/apps/{templatedInstanceAppId}/manifest",
+          "urlTemplate": "https://substrate-tdf.office.com/TaigerService/ODSPCustomCopilot/apps/{templatedInstanceAppId}/manifest",
           "authModel": "substrateTaiger"
         },
         "searchTemplatedAppsUrl": {
-          "urlTemplate": "https://substrate.office.com/TaigerService/ODSPCustomCopilot/apps/manifests",
+          "urlTemplate": "https://substrate-tdf.office.com/TaigerService/ODSPCustomCopilot/apps/manifests",
           "authModel": "substrateTaiger"
         },
         "webApplicationInfo": {
