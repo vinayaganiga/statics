@@ -51,8 +51,9 @@
         "Frontier",
         "Deep Reasoning agent"
       ],
-      "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/e6d03825-3fcb-4c8b-905f-7c80e9678cbd/e6d03825-3fcb-4c8b-905f-7c80e9678cbd_largeimage.png",
       "lastUpdatedAt": "2025-05-14T14:56:03.913643+00:00",
+		  "smallImageUrl": "https://res.cdn.office.net/teamsappdata/ais_prod_v1/evergreen-assets/e6d03825-3fcb-4c8b-905f-7c80e9678cbd/2026012803052455/e6d03825-3fcb-4c8b-905f-7c80e9678cbd_smallimage.png",
+      "largeImageUrl": "https://res.cdn.office.net/teamsappdata/ais_prod_v1/evergreen-assets/e6d03825-3fcb-4c8b-905f-7c80e9678cbd/2026012803052455/e6d03825-3fcb-4c8b-905f-7c80e9678cbd_largeimage.png",
       "longDescription": "Researcher uses deep reasoning capabilities to parse through the entirety of your work context and the web, make sense of it, and reason through it to form a point of view and offer insights.\n**Frontier**\nThe new Frontier program gives customers early, hands-on access to experimental Microsoft 365 Copilot innovations right in their own environment. The agents and AI features designated as \"Frontier\" are previews, built for evaluation and feedback purposes. As these features are still in development, their availability and capabilities may change at any time. Learn more about how you can help shape the next generation of Microsoft 365 Copilot.",
       "officeAssetId": "WA200008414",
       "permissions": [],
@@ -69,8 +70,7 @@
       },
       "shortDescription": "With Researcher, now every employee has access to expertise on-demand.",
       "showLoadingIndicator": false,
-      "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/preapproved_global/e6d03825-3fcb-4c8b-905f-7c80e9678cbd/e6d03825-3fcb-4c8b-905f-7c80e9678cbd_smallimage.png",
-      "systemVersion": "2025051617530483",
+	    "systemVersion": "2025051617530483",
       "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2?ui=en-us&rs=en-us&ad=us",
       "publishingPolicy": {
         "isFlaggedForViolations": false,
@@ -1094,7 +1094,8 @@
           "Agent",
           "Prompt"
         ],
-        "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/90680790-0a82-47bf-bab3-6c60c4221d1d_largeImage.png?v=1.0.1",
+        "smallImageUrl": "https://res.cdn.office.net/teamsappdata/ais_prod_v1/evergreen-assets/90680790-0a82-47bf-bab3-6c60c4221d1d/2026012803280313/90680790-0a82-47bf-bab3-6c60c4221d1d_smallimage.png",
+        "largeImageUrl": "https://res.cdn.office.net/teamsappdata/ais_prod_v1/evergreen-assets/90680790-0a82-47bf-bab3-6c60c4221d1d/2026012803280313/90680790-0a82-47bf-bab3-6c60c4221d1d_largeimage.png",
         "lastUpdatedAt": "2024-10-11T21:35:55.1253117Z",
         "longDescription": "Prompt Coach is designed to assist in crafting well-structured, effective prompts. This companion excels in both generating new prompts and analyzing existing ones, ensuring they align with your goals. With a focus on guiding users through the entire process, this companion offers valuable feedback, examples, and actionable suggestions for continuous improvement. Prompt Coach is designed to work with Microsoft 365 Copilot.",
         "officeAssetId": "WA200007578",
@@ -1108,7 +1109,6 @@
           "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/90680790-0a82-47bf-bab3-6c60c4221d1d/1.png?v=1.0.1"
         ],
         "shortDescription": "Write and improve your prompts",
-        "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/90680790-0a82-47bf-bab3-6c60c4221d1d_smallImage.png?v=1.0.1",
         "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
         "validDomains": [],
         "publishingPolicy": {
@@ -2133,7 +2133,8 @@
           "Agent",
           "Prompt"
         ],
-        "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/78079743-a11b-45d0-99cb-a69d37717373_largeImage.png?v=1.0.0",
+        "smallImageUrl": "https://res.cdn.office.net/teamsappdata/ais_prod_v1/evergreen-assets/78079743-a11b-45d0-99cb-a69d37717373/2026012803352247/78079743-a11b-45d0-99cb-a69d37717373_smallimage.png",
+        "largeImageUrl": "https://res.cdn.office.net/teamsappdata/ais_prod_v1/evergreen-assets/78079743-a11b-45d0-99cb-a69d37717373/2026012803352247/78079743-a11b-45d0-99cb-a69d37717373_largeimage.png",                
         "longDescription": "Learning Coach is the supportive and knowledgeable learning assistant dedicated to helping you master complex subjects, refine your skills, and create the perfect learning plan tailored to your goals. Learning Coach is designed to work with Microsoft 365 Copilot.",
         "officeAssetId": "WA200007580",
         "permissions": [
@@ -2146,7 +2147,6 @@
           "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/78079743-a11b-45d0-99cb-a69d37717373/1.png?v=1.0.0"
         ],
         "shortDescription": "Unlock your potential with Learning Coach",
-        "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/78079743-a11b-45d0-99cb-a69d37717373_smallImage.png?v=1.0.0",
         "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2",
         "validDomains": [],
         "publishingPolicy": {
@@ -3184,7 +3184,8 @@
           "Content Management",
           "Collaboration"
         ],
-        "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b0979f8d-3dfb-470b-8be2-ff97728e6a19/b0979f8d-3dfb-470b-8be2-ff97728e6a19_largeImage.png?v=1.0.7",
+        "smallImageUrl": "https://res.cdn.office.net/teamsappdata/app-assets/ring0/b0979f8d-3dfb-470b-8be2-ff97728e6a19/b0979f8d-3dfb-470b-8be2-ff97728e6a19_smallImage.png?v=1.0.7",
+        "largeImageUrl": "https://res.cdn.office.net/teamsappdata/app-assets/ring0/b0979f8d-3dfb-470b-8be2-ff97728e6a19/b0979f8d-3dfb-470b-8be2-ff97728e6a19_largeImage.png?v=1.0.7",
         "lastUpdatedAt": "2025-11-19T12:18:26.7306012+00:00",
         "longDescription": "<p>Lists Agent for Microsoft 365 Copilot makes list creation simple and effortless. It enables users to create new lists through multi-turn natural language conversation and automatically converts structured content (such as tables) generated by Copilot into SharePoint lists. </p><ul><li><b>Effortless Creation:</b> Instantly generate lists from Copilot conversations or structured Copilot content in a single step.</li><li><b>Flexible Storage Location:</b> Select where to save - whether to a SharePoint site or your personal OneDrive for Business (My site).</li><li><b>Seamless Integration: </b> Works across M365 Copilot and SharePoint, helping create lists using both enterprise data and web data.</li></ul><br><p><strong>Frontier</strong></p><p>The new Frontier program gives customers early, hands-on access to experimental Microsoft 365 Copilot innovations right in their own environment. The agents and AI features designated as \"Frontier\" are previews, built for evaluation and feedback purposes. As these features are still in development, their availability and capabilities may change at any time. Learn more about how you can help shape the next generation of Microsoft 365 Copilot.</p>",
         "metaOSTitleId": "P_d57d4da7-846d-b18b-1845-90ea5921bed8",
@@ -3210,8 +3211,7 @@
           "status": "unattested"
         },
         "shortDescription": "Transform Microsoft 365 Copilot chat context into SharePoint lists.",
-        "showLoadingIndicator": false,
-        "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/b0979f8d-3dfb-470b-8be2-ff97728e6a19/b0979f8d-3dfb-470b-8be2-ff97728e6a19_smallImage.png?v=1.0.7",
+        "showLoadingIndicator": false,        
         "systemVersion": "2025112521584582",
         "termsOfUseUrl": "https://support.microsoft.com/en-us/office/supplementary-terms-of-service-for-teams-apps-powered-by-microsoft-365-services-and-applications-bc6027fe-68c3-4758-a70d-cfe97c43b4e2?ui=en-us&rs=en-us&ad=us",
         "validDomains": [],
